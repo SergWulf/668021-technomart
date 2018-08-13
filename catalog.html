@@ -8,7 +8,7 @@
 <header class="main-header">
     <a class="logo-link" href="index.html"><img class="logo" alt="Логотип сайта Техномарт"></a>
     <ul class="top-menu">
-        <li><a class="top-menu-search" href="search.html">Поиск</a></li>
+        <li><form class="top-menu-search"><label>Поиск</label></form></li>
         <li><a class="top-menu-bookmarks" href="bookmarks.html">Закладки</a></li>
         <li><a class="top-menu-basket" href="basket.html">Корзина</a></li>
         <li><a class="top-menu-order" href="order.html">Оформить заказ</a></li>
@@ -18,12 +18,12 @@
         <p class="phone">+7(812)555-55-05</p>
         <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
     </div>
-    <ul class="user-menu-registered">
-        <li><a>Равшан Джамшутович</a></li>
-        <li><button class="user-exit"></button></li>
-        <li><a href="my-orders.html">Мои заказы</a></li>
-        <li><a href="profile.html">Личный кабинет</a></li>
-    </ul>
+    <div class="user-menu-registered">
+        <a class="user-name" href="profile.html">Равшан Джамшутович</a>
+        <a class="user-exit" href="logout.html"></a>
+        <a href="my-orders.html">Мои заказы</a>
+        <a href="profile.html">Личный кабинет</a>
+    </div>
     <nav class="head-navigation">      
         <ul class="head-menu">
             <li><a href="index.html">Главная</a></li>
@@ -55,113 +55,112 @@
         <div class="catalog-item-sorting">
             <h3>Сортировка:</h3>
             <ul class="sorting">
-            <li><a class="price">По цене</a></li>
-            <li><a class="type">По типу</a></li>
-            <li><a class="functional">По функционалу</a></li>
-            <li><a class="up"></a></li>
-            <li><a class="down"></a></li>
+                <li><a href="catalog.html?p=sorting-price">По цене</a></li>
+                <li><a href="catalog.html?p=sorting-type">По типу</a></li>
+                <li><a href="catalog.html?p=sorting-functional">По функционалу</a></li>
+                <li><a href="catalog.html?p=sorting-up">&#9650;</a></li>
+                <li><a href="catalog.html?p=sorting-down">&#9660;</a></li>
             </ul>
         </div>
         <div class="catalog-item-view-products">
             <ul class="list-view-products">
                 <li>
                     <article class="card-product">
-                        <img class="product-picture" alt="BOSH BFG 3000">
-                        <button class="buy-product btn visually-hidden">Купить</button>
-                        <button class="bookmark-in btn visually-hidden">В закладки</button>
+                        <img class="card-product-picture" alt="BOSH BFG 3000">
+                        <a class="card-product-buy btn visually-hidden">Купить</a>
+                        <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
                         <h3>Перфоратор BOSH BFG 3000</h3>
-                        <span class="product-old-price">22500 Р.</span>
-                        <a class="price-btn">15500 Р.</a>
+                        <span class="card-product-old-price">22500 Р.</span>
+                        <a class="card-product-price-btn">15500 Р.</a>
                     </article>
                 </li>
                 <li>
                     <article class="card-product">
-                        <img class="product-picture" alt="BOSH BFG 6000">
-                        <button class="buy-product btn visually-hidden">Купить</button>
-                        <button class="bookmark-in btn visually-hidden">В закладки</button>
+                        <img class="card-product-picture" alt="BOSH BFG 6000">
+                        <a class="card-product-buy btn visually-hidden">Купить</a>
+                        <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
                         <h3>Перфоратор BOSH BFG 6000</h3>
-                        <span class="product-old-price">30500 Р.</span>
-                        <a class="price-btn">25500 Р.</a>
+                        <span class="card-product-old-price">30500 Р.</span>
+                        <a class="card-product-price-btn">25500 Р.</a>
                     </article>
                 </li>
                 <li>
                     <article class="card-product new">
-                        <img class="product-picture" alt="BOSH BFG 2000">
-                        <button class="buy-product btn">Купить</button>
-                        <button class="bookmark-in btn">В закладки</button>
+                        <img class="card-product-picture" alt="BOSH BFG 2000">
+                        <a class="card-product-buy btn">Купить</a>
+                        <a class="card-product-bookmark-in btn">В закладки</a>
                         <h3>Перфоратор BOSH BFG 2000</h3>
-                        <span class="product-old-price"></span>
-                        <a class="price-btn">12500 Р.</a>
+                        <span class="card-product-old-price"></span>
+                        <a class="card-product-price-btn">12500 Р.</a>
                     </article>
                 </li>
                 <li>
                     <article class="card-product">
-                        <img class="product-picture" alt="BOSH BFG 3000">
-                        <button class="buy-product btn visually-hidden">Купить</button>
-                        <button class="bookmark-in btn visually-hidden">В закладки</button>
+                        <img class="card-product-picture" alt="BOSH BFG 3000">
+                        <a class="card-product-buy btn visually-hidden">Купить</a>
+                        <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
                         <h3>Перфоратор BOSH BFG 3000</h3>
-                        <span class="product-old-price">22500 Р.</span>
-                        <a class="price-btn">15500 Р.</a>
+                        <span class="card-product-old-price">22500 Р.</span>
+                        <a class="card-product-price-btn">15500 Р.</a>
                     </article>
                 </li>
                 <li>
                     <article class="card-product new">
-                        <img class="product-picture" alt="BOSH BFG 6000">
-                        <button class="buy-product btn visually-hidden">Купить</button>
-                        <button class="bookmark-in btn visually-hidden">В закладки</button>
+                        <img class="card-product-picture" alt="BOSH BFG 6000">
+                        <a class="card-product-buy btn visually-hidden">Купить</a>
+                        <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
                         <h3>Перфоратор BOSH BFG 6000</h3>
-                        <span class="product-old-price">30500 Р.</span>
-                        <a class="price-btn">25500 Р.</a>
+                        <span class="card-product-old-price">30500 Р.</span>
+                        <a class="card-product-price-btn">25500 Р.</a>
                     </article>
                 </li>
                 <li>
                     <article class="card-product">
-                        <img class="product-picture" alt="BOSH BFG 2000">
-                        <button class="buy-product btn">Купить</button>
-                        <button class="bookmark-in btn">В закладки</button>
+                        <img class="card-product-picture" alt="BOSH BFG 2000">
+                        <a class="card-product-buy btn">Купить</a>
+                        <a class="card-product-bookmark-in btn">В закладки</a>
                         <h3>Перфоратор BOSH BFG 2000</h3>
-                        <span class="product-old-price"></span>
-                        <a class="price-btn">12500 Р.</a>
+                        <span class="card-product-old-price"></span>
+                        <a class="card-product-price-btn">12500 Р.</a>
                     </article>
                 </li>
                 <li>
                     <article class="card-product new">
-                        <img class="product-picture" alt="BOSH BFG 3000">
-                        <button class="buy-product btn visually-hidden">Купить</button>
-                        <button class="bookmark-in btn visually-hidden">В закладки</button>
+                        <img class="card-product-picture" alt="BOSH BFG 3000">
+                        <a class="card-product-buy btn visually-hidden">Купить</a>
+                        <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
                         <h3>Перфоратор BOSH BFG 3000</h3>
-                        <span class="product-old-price">22500 Р.</span>
-                        <a class="price-btn">15500 Р.</a>
+                        <span class="card-product-old-price">22500 Р.</span>
+                        <a class="card-product-price-btn">15500 Р.</a>
                     </article>
                 </li>
                 <li>
                     <article class="card-product">
-                        <img class="product-picture" alt="BOSH BFG 6000">
-                        <button class="buy-product btn visually-hidden">Купить</button>
-                        <button class="bookmark-in btn visually-hidden">В закладки</button>
+                        <img class="card-product-picture" alt="BOSH BFG 6000">
+                        <a class="card-product-buy btn visually-hidden">Купить</a>
+                        <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
                         <h3>Перфоратор BOSH BFG 6000</h3>
-                        <span class="product-old-price">30500 Р.</span>
-                        <a class="price-btn">25500 Р.</a>
+                        <span class="card-product-old-price">30500 Р.</span>
+                        <a class="card-product-price-btn">25500 Р.</a>
                     </article>
 
                 </li>
                 <li>
                     <article class="card-product">
-                        <img class="product-picture" alt="BOSH BFG 2000">
-                        <button class="buy-product">Купить</button>
-                        <button class="bookmark-in">В закладки</button>
+                        <img class="card-product-picture" alt="BOSH BFG 2000">
+                        <a class="card-product-buy">Купить</a>
+                        <a class="card-product-bookmark-in">В закладки</a>
                         <h3>Перфоратор BOSH BFG 2000</h3>
-                        <span class="product-old-price"></span>
-                        <a class="price-btn">12500 Р.</a>
+                        <span class="card-product-old-price"></span>
+                        <a class="card-product-price-btn">12500 Р.</a>
                     </article>
                 </li>
             </ul>
-            <ul class="page-switch-catalog-view">
-                <li><a class="prev visually-hidden" href="#">Предыдущая</a></li>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a class="next" href="#">Следующая</a></li>
+            <ul class="page-switch">
+                <li><a class="page-switch-current">1</a></li>
+                <li><a href="catalog.html?p=2">2</a></li>
+                <li><a href="catalog.html?p=3">3</a></li>
+                <li><a class="next" href="catalog.html?p=2">Следующая</a></li>
             </ul>
         </div>
         <div class="description-catalog-item-product">
@@ -217,6 +216,14 @@
         </div>
     </div>
 </footer>
-
+<div class="modal-add-product-in-basket">
+    <header class="modal-add-product-header">
+        <h2>Товар добавлен в корзину!</h2>
+    </header>
+    <footer class="modal-add-product-footer">
+        <a class="modal-add-product-footer-order" href="order.html">Оформить заказ</a>
+        <a class="modal-add-product-footer-continue" href="catalog.html">Продолжить покупки</a>
+    </footer>
+</div>
 </body>
 </html>
