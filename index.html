@@ -8,7 +8,7 @@
   <header class="main-header">
     <a class="logo-link"><img class="logo" alt="Логотип сайта Техномарт"></a>
     <ul class="top-menu">
-      <li><a class="top-menu-search" href="search.html">Поиск</a></li>
+      <li><form class="top-menu-search"><label>Поиск</label></form></li>
       <li><a class="top-menu-bookmarks" href="bookmarks.html">Закладки</a></li>
       <li><a class="top-menu-basket" href="basket.html">Корзина</a></li>
       <li><a class="top-menu-order" href="order.html">Оформить заказ</a></li>
@@ -18,10 +18,10 @@
       <p class="phone">+7(812)555-55-05</p>
       <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
     </div>
-    <ul class="user-menu">
-        <li><a class="user-btn" href="login.html">Войти</a></li>
-        <li><a class="user-btn" href="registration.html">Регистрация</a></li>
-    </ul>
+    <div class="user-menu">
+        <a class="user-btn" href="login.html">Войти</a>
+        <a class="user-btn" href="registration.html">Регистрация</a>
+    </div>
     <nav class="head-navigation">
       <ul class="head-menu">
         <li><a>Главная</a></li>
@@ -39,36 +39,36 @@
 
     <section class="catalog-products-and-benefits">
       <h2 class="catalog-title visually-hidden">Каталог товаров Техномарт</h2>
-      <ul class="catalog-item">
-        <li class="materials">
+      <ul class="catalog-items">
+        <li class="card materials">
           <h3>Материалы</h3>
           <a class="catalog-btn" href="catalog.html?p=materials">На любой вкус</a>
         </li>
-        <li class="instruments">
+        <li class="card instruments">
           <h3>Инструмент</h3>
           <a class="catalog-btn" href="catalog.html?p=instruments">На все случаи</a>
         </li>
-        <li class="device">
+        <li class="card device">
           <h3>Техника</h3>
           <a class="catalog-btn" href="#">Для стройки</a>
         </li>
-        <li class="slider drills">
+        <li class="slider-card drills">
           <h3>Дрели</h3>
           <span>Соседям на радость</span>
           <a href="catalog.html">Открыть каталог</a>
         </li>
-        <li class="slider rock-drills">
+        <li class="slider-card rock-drills">
           <h3>Перфораторы</h3>
           <span>Настоящие мужские игрушки</span>
           <a href="catalog.html">Открыть каталог</a>
         </li>
       </ul>
       <ul class="benefits">
-        <li class="discount">
+        <li class="card discount">
           <h3>Скидка 50%</h3>
           <a class="benefits-btn" href="discount.html">На 350 товаров</a>
         </li>
-        <li class="delivery">
+        <li class="card delivery">
           <h3>Доставка</h3>
           <a class="benefits-btn" href="delivery.html">Бесплатно</a>
         </li>
@@ -81,42 +81,42 @@
       <ul class="popular-products-list">
         <li>
           <article class="card-product">
-            <img class="product-picture" alt="BOSH BFG 9000">
-            <button class="buy-product btn visually-hidden">Купить</button>
-            <button class="bookmark-in btn visually-hidden">В закладки</button>
+            <img class="card-product-picture" alt="BOSH BFG 9000">
+            <a class="card-product-buy btn visually-hidden">Купить</a>
+            <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
             <h3>Перфоратор BOSH BFG 9000</h3>
-            <span class="product-old-price">32500 Р.</span>
-            <a class="price-btn" href="catalog.html">25500 Р.</a>
+            <span class="card-product-old-price">32500 Р.</span>
+            <a class="card-product-price-btn" href="catalog.html">25500 Р.</a>
           </article>
         </li>
         <li>
           <article class="card-product">
-            <img class="product-picture" alt="BOSH BFG 3000">
-            <button class="buy-product btn visually-hidden">Купить</button>
-            <button class="bookmark-in btn visually-hidden">В закладки</button>
+            <img class="card-product-picture" alt="BOSH BFG 3000">
+            <a class="card-product-buy btn visually-hidden">Купить</a>
+            <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
             <h3>Перфоратор BOSH BFG 3000</h3>
-            <span class="product-old-price">22500 Р.</span>
-            <a class="price-btn" href="catalog.html">15500 Р.</a>
+            <span class="card-product-old-price">22500 Р.</span>
+            <a class="card-product-price-btn" href="catalog.html">15500 Р.</a>
           </article>
         </li>
         <li>
           <article class="card-product">
-            <img class="product-picture" alt="BOSH BFG 6000">
-            <button class="buy-product btn visually-hidden">Купить</button>
-            <button class="bookmark-in btn visually-hidden">В закладки</button>
+            <img class="card-product-picture" alt="BOSH BFG 6000">
+            <a class="card-product-buy btn visually-hidden">Купить</a>
+            <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
             <h3>Перфоратор BOSH BFG 6000</h3>
-            <span class="product-old-price">30500 Р.</span>
-            <a class="price-btn" href="catalog.html">25500 Р.</a>
+            <span class="card-product-old-price">30500 Р.</span>
+            <a class="card-product-price-btn" href="catalog.html">25500 Р.</a>
           </article>
         </li>
         <li>
           <article class="card-product new">
-            <img class="product-picture" alt="BOSH BFG 2000">
-            <button class="buy-product btn visually-hidden">Купить</button>
-            <button class="bookmark-in btn visually-hidden">В закладки</button>
+            <img class="card-product-picture" alt="BOSH BFG 2000">
+            <a class="card-product-buy btn visually-hidden">Купить</a>
+            <a class="card-product-bookmark-in btn visually-hidden">В закладки</a>
             <h3>Перфоратор BOSH BFG 2000</h3>
-            <span class="product-old-price"></span>
-            <a class="price-btn" href="catalog.html">12500 Р.</a>
+            <span class="card-product-old-price"></span>
+            <a class="card-product-price-btn" href="catalog.html">12500 Р.</a>
           </article>
         </li>
       </ul>
@@ -159,8 +159,12 @@
         <p>Хороший интернет-магазин отличается от плохого не только ценами!
             Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
       </div>
-      <div class="delivery-guarantee-credit">
       <ul class="services-shop-list">
+          <li><a href="#delivery">Доставка</a></li>
+          <li><a href="#guarantee">Гарантия</a></li>
+          <li><a href="#credit">Кредит</a></li>
+      </ul>
+      <ul class="services-shop-list-description">
         <li class="delivery">
           <h3>Доставка</h3>
           <p>Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</p>
@@ -175,7 +179,7 @@
           <a class="credit-application" href="credit.html">Отправить заявку</a>
         </li>
       </ul>
-      </div>
+
     </section>
 
     <section class="about-company">
@@ -246,6 +250,8 @@
           </div>
       </div>
   </footer>
-
+  <form class="modal-feedback">
+      <!-- Здесь будет позже разметка элементов формы-->
+  </form>
   </body>
 </html>
