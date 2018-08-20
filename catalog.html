@@ -8,7 +8,12 @@
 <header class="main-header">
     <a class="logo-link" href="index.html"><img class="logo" alt="Логотип сайта Техномарт" src="img/logo-header.png"></a>
     <ul class="top-menu">
-        <li><form class="top-menu-search"><label>Поиск</label></form></li>
+        <li>
+            <form class="top-menu-form-search" name="form-search">
+                <label for="search-id">Поиск</label>
+                <input type="search" name="search-page" id="search-id">
+            </form>
+        </li>
         <li><a class="top-menu-bookmarks" href="bookmarks.html">Закладки</a></li>
         <li><a class="top-menu-basket" href="basket.html">Корзина</a></li>
         <li><a class="top-menu-order" href="order.html">Оформить заказ</a></li>
@@ -50,7 +55,27 @@
         <h2>Перфораторы</h2>
         <form class="catalog-item-filter">
             <h3>Фильтр:</h3>
-
+            <fieldset class="price">
+                <legend>Цена:</legend>
+                <input class="price-range" type="range" name="price" id="price-id" min="0" max="30000" step="500"><br>
+                <output class="price-range-displayout" name="price-range-min">0</output>
+                <span>-</span>
+                <output class="price-range-displayout" name="price-range-max">30000</output>
+            </fieldset>
+            <fieldset class="manufacturers">
+                <legend>Производители:</legend>
+                <label><input type="checkbox" name="bosch" checked>Bosch</label>
+                <label><input type="checkbox" name="interskol">Интерскол</label>
+                <label><input type="checkbox" name="makita" checked>Makita</label>
+                <label><input type="checkbox" name="dewalt">DeWALT</label>
+                <label><input type="checkbox" name="hitachi">Hitachi</label>
+            </fieldset>
+            <fieldset class="power-type">
+                <legend>Питание:</legend>
+                <label><input type="radio" name="power" value="accumulator">Аккумуляторные</label>
+                <label><input type="radio" name="power" value="power-supply">Сетевые</label>
+            </fieldset>
+            <input class="submit-button" type="submit" value="Показать">
         </form>
         <div class="catalog-item-sorting">
             <h3>Сортировка:</h3>
