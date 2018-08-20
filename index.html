@@ -9,8 +9,9 @@
     <a class="logo-link"><img class="logo" alt="Логотип сайта Техномарт" src="img/logo-header.png"></a>
     <ul class="top-menu">
       <li>
-          <form class="top-menu-search">
-            <label>Поиск</label>
+          <form class="top-menu-form-search" name="form-search">
+              <label for="search-id">Поиск</label>
+              <input type="search" name="search-page" id="search-id">
           </form>
       </li>
       <li><a class="top-menu-bookmarks" href="bookmarks.html">Закладки</a></li>
@@ -254,8 +255,14 @@
           </div>
       </div>
   </footer>
-  <form class="modal-feedback">
-      <!-- Здесь будет позже разметка элементов формы-->
+  <form class="modal-feedback" name="form-feedback">
+      <label for="username-id">Ваше имя:</label>
+      <input type="text" name="username" id="username-id" placeholder="Имя Фамилия">
+      <label for="email-id">Ваш email:</label>
+      <input type="email" name="email" id="email-id" placeholder="email@example.com">
+      <label for="feedback-text-id">Текст письма:</label>
+      <textarea name="feedback-text" id="feedback-text-id" rows="10" cols="100" placeholder="В свободной форме"></textarea>
+      <input class="submit-form-feedback" type="submit" value="Отправить">
   </form>
   </body>
 </html>
