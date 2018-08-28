@@ -90,3 +90,97 @@ a {
 
     list-style: none;
 }
+
+/* Нужно ли комментировать каждый блок для стилей? */
+.catalog-products-and-benefits ul {
+    list-style: none;
+}
+
+.catalog-products-and-benefits .card h3 {
+    font-family: "Cuprum", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+}
+
+.catalog-products-and-benefits .card a {
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    text-transform: uppercase;
+
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.catalog-products-and-benefits .slider-card h3 {
+    font-family: "Cuprum", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.catalog-products-and-benefits .slider-card span {
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.catalog-btn {
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    text-transform: uppercase;
+
+    background-color: #ee3643;
+}
+
+.new {
+    background-image: url(../img/new-flag.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.container {
+    color: black;
+    background-color: white;
+}
+
+.materials {
+    background-color: #ffbf47;
+}
+
+.instruments {
+    background-color: #3bbce3;
+}
+
+.device {
+    background-color: #dc91d8;
+}
+
+.drills {
+    background-color: #293449;
+    background-image: url("../img/slider1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rock-drills {
+    background-color: #293449;
+    background-image: url("../img/slider2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.discount {
+    background-color: #8ed78f;
+}
+
+.delivery {
+    background-color: #ffc047;
+}
