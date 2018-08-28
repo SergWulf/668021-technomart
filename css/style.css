@@ -12,4 +12,33 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+.top-menu {
+    font-size: 17px;
+    line-height: 18px;
+    color: white;
+    text-transform: capitalize;
+
+    list-style: none;
+
+    background-color: #293449;
+}
+
+/* пока не разобрался, как задать стиль для placeholder */
+.top-menu-form-search input[type="search"] {
+    font-family: "Cuprum", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    color: white;
+
+    background-color: #293449;
+
+    border: none;
+}
+
+
+.top-menu-order {
+    background-color: #63a63e;
 }
