@@ -60,6 +60,8 @@ a {
     font-size: 21px;
     line-height: 21px;
     color: #ee3643;
+
+    border: 3px solid white;
 }
 
 .contacts-company .address {
@@ -67,4 +69,24 @@ a {
     font-size: 14px;
     line-height: 24px;
     color: #32425c;
+}
+
+.user-menu .user-btn {
+    font-family: "Cuprum", sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    color: black;
+
+    background-color: white;
+}
+
+.head-navigation .head-menu {
+    font-family: "Cuprum", sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    color: white;
+
+    background-color: #32425c;
+
+    list-style: none;
 }
