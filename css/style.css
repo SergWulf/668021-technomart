@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Cuprum", sans-serif;
+    color: white;
+    font-size: 17px;
+    line-height: 17px;
+
+    background-color: #293449;
+}
+
+a {
+    text-decoration: none;
+}
