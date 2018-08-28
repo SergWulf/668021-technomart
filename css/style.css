@@ -42,3 +42,29 @@ a {
 .top-menu-order {
     background-color: #63a63e;
 }
+
+.bottom-block-header {
+    background-color: #f4f7f9;
+}
+
+.head-title {
+    font-family: "Cuprum", sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-style: italic;
+    color: #ee3643;
+}
+
+.contacts-company .phone {
+    font-family: "Cuprum", sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ee3643;
+}
+
+.contacts-company .address {
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #32425c;
+}
