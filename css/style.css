@@ -15,6 +15,7 @@ a {
     color: white;
 }
 
+/*Шапка сайта*/
 .top-menu {
     font-size: 17px;
     line-height: 18px;
@@ -92,6 +93,7 @@ a {
 }
 
 /* Нужно ли комментировать каждый блок для стилей? */
+/*Секция каталога продуктов и слайдер*/
 .catalog-products-and-benefits ul {
     list-style: none;
 }
@@ -183,4 +185,55 @@ a {
 
 .delivery {
     background-color: #ffc047;
+}
+
+/*Секция популярные производители*/
+
+.title-block {
+	background-color:#f9f5f0;
+}
+
+.popular-products-title {
+	font-family: "Cuprum", sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.popular-products-list {
+	list-style: none;
+}
+
+.card-product {
+	border: 1px solid #eaeaea;
+}
+
+.card-product h3 {
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.card-product-old-price {
+	font-family: "PT Sans", sans-serif;
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #a9a9a9;
+	text-decoration: line-through;
+} 
+
+.card-product-price-btn {
+	font-family: "PT Sans", sans-serif;
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: bold;
+	color: white;
+	
+	background-color: #ee3643;
+
+	display: block;
 }
