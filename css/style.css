@@ -357,3 +357,43 @@ a {
     line-height: 20px;
     color: black;
 }
+
+/*Футер*/
+.main-footer {
+    background-color: #32425c;
+}
+
+.footer-bottom {
+    background-color: #293449;
+}
+
+.head-menu-footer, .menu-catalog-footer {
+    list-style: none;
+}
+
+.head-navigation-footer a, .contacts-company-footer {
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #f3f7f9;
+}
+
+.menu-catalog-footer a {
+    color: #ffd180;
+}
+
+.copyright-company, .feedback-company, .developed-by {
+    font-family: "Cuprum", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+}
+
+.social-links-list {
+    list-style: none;
+}
+
+.feedback-company a, .developed-by a {
+    color: #ffd180;
+}
+
