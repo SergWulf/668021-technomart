@@ -247,3 +247,60 @@ a {
 	border: 1px solid #eaeaea;
 }
 
+/*Секция сервис*/
+.services-shop {
+    background-color: #f4f8f9;
+}
+
+.services-shop-title {
+    font-family: "Cuprum", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.services-shop-description {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: black;
+}
+
+.services-shop-list, .services-shop-list-description {
+    list-style: none;
+}
+
+.services-shop-list a {
+    font-family: "Cuprum", sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+
+    background-color: #32425c;
+}
+
+.services-shop-list a:active {
+    color: #32425c;
+    background-color: white;
+}
+
+.services-shop-list a:hover {
+    background-color: #293449;
+}
+
+.services-shop-list-description h3 {
+    font-family: "Cuprum", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #32425c;
+}
+
+.services-shop-list-description p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: black;
+}
