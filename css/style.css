@@ -132,7 +132,7 @@ a {
     color: white;
 }
 
-.catalog-btn {
+.btn {
     font-family: "Cuprum", sans-serif;
     font-size: 14px;
     line-height: 18px;
@@ -302,5 +302,58 @@ a {
     font-family: "PT Sans", sans-serif;
     font-size: 13px;
     line-height: 24px;
+    color: black;
+}
+
+.services-shop-delivery {
+    background-color: #f4f8f9;
+    background-image: url("../img/delivery.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.services-shop-guarantee {
+    background-color: #f4f8f9;
+    background-image: url("../img/guarantee.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.services-shop-credit {
+    background-color: #f4f8f9;
+    background-image: url("../img/credit.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* Секции о компании и контакты*/
+
+.index-column {
+    background-color: white;
+}
+
+.about-company-title, .contacts-company-title {
+    font-family: "Cuprum", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.index-column p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: black;
+}
+
+.delivery-company-list {
+    list-style: none;
+}
+
+.delivery-company-list li {
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
     color: black;
 }
