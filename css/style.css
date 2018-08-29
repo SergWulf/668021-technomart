@@ -187,7 +187,7 @@ a {
     background-color: #ffc047;
 }
 
-/*Секция популярные производители*/
+/*Секция популярные товары*/
 
 .title-block {
 	background-color:#f9f5f0;
@@ -237,3 +237,13 @@ a {
 
 	display: block;
 }
+
+/*Секция популярные производители*/
+.popular-manufacturers-list {
+	list-style: none;
+}
+
+.popular-manufacturers-list li {
+	border: 1px solid #eaeaea;
+}
+
