@@ -397,3 +397,33 @@ a {
     color: #ffd180;
 }
 
+
+/*Форма связи*/
+.modal-feedback {
+    background-color: white;
+}
+
+.modal-feedback label {
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    color: black;
+}
+
+.modal-feedback input[placeholder], .modal-feedback textarea[placeholder] {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #a9a9a9;
+}
+
+.modal-feedback input, .modal-feedback textarea {
+    border-style: none;
+    border: 1px solid #dee3e4;
+}
+
+.submit-form-feedback {
+    border: none;
+}
+
+
