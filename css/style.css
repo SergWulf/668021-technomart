@@ -46,6 +46,9 @@ a {
     border: none;
 }
 
+.top-menu-form-search input[type="search"]::placeholder {
+    color: white;
+}
 
 .top-menu-order {
     background-color: #63a63e;
