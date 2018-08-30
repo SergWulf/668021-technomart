@@ -611,6 +611,25 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     color: #32425c;
     text-transform: uppercase;
 }
+/* Переключатель страниц */
+.page-switch {
+    list-style: none;
+
+}
+
+.page-switch li {
+    border: 1px solid #eaeaea;
+    display: inline-block;
+}
+
+.page-switch a {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+}
 
 /* Блок описания раздела каталога */
 
@@ -635,4 +654,31 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     color: black;
 }
 
+/*Форма добавления товара в корзину*/
 
+.modal-add-product-in-basket {
+    background-color: white;
+}
+
+.modal-add-product-in-basket h2 {
+    font-family: "Cuprum", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    color: black;
+}
+
+.modal-add-product-footer-continue {
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+
+    background-color: white;
+}
+
+.modal-add-product-footer {
+    background-color: #f1f1f1;
+}
