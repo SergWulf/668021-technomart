@@ -592,7 +592,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	list-style: none;
 }
 
-/* Кнопки карточки товара*/
+/* Кнопки карточки товара */
 
 .card-product .card-product-buy {
     background-color: #63a63e;
@@ -611,3 +611,28 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     color: #32425c;
     text-transform: uppercase;
 }
+
+/* Блок описания раздела каталога */
+
+.description-catalog-item-product {
+    background-color: #f2f6f8;
+}
+
+.description-catalog-item-product h2 {
+    font-family: "Cuprum", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+}
+
+.description-catalog-item-product p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: normal;
+    color: black;
+}
+
+
