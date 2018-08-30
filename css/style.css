@@ -427,3 +427,47 @@ a {
 }
 
 
+/*Стилизация каталога*/
+.user-name {
+	font-family: "Cuprum", sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    color: black;
+
+    background-color: white;
+}
+
+.user-profile, .user-orders {
+	font-family: "Cuprum", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+	color: #32425c;
+	text-decoration: underline;
+}
+
+.top-menu-basket.registered {
+	background-color: #ee3643;
+}
+
+.breadcrumbs {
+	list-style: none;
+}
+
+.breadcrumbs a{
+	font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.catalog-item h2 {
+	font-family: "Cuprum", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #32425c;
+    text-transform: uppercase;
+
+    background-color: #f2f6f8;
+}
