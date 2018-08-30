@@ -512,3 +512,55 @@ a {
     color: black;
     text-transform: uppercase;
 }
+
+.catalog-item-filter fieldset {
+	border: none;
+}
+
+fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.price {
+	font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+.catalog-item-filter legend {
+	font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+	font-weight: bold;
+	color: black;
+    text-transform: uppercase;
+}
+
+.price-range, .price-range-displayout {
+	background-color: #f7f3ec;
+}
+
+.form-group-field label {
+	font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+}
+
+.submit-button {
+	border: 1px solid #e5e5e5;
+
+	font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+
+    background-color: white;
+
+}
