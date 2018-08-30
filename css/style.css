@@ -592,3 +592,22 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	list-style: none;
 }
 
+/* Кнопки карточки товара*/
+
+.card-product .card-product-buy {
+    background-color: #63a63e;
+    color: white;
+}
+
+.card-product .card-product-bookmark-in {
+    border: 3px solid #63a63e;
+}
+
+.card-btn {
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #32425c;
+    text-transform: uppercase;
+}
