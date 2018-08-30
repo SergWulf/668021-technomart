@@ -45,6 +45,76 @@ a {
 
     border: none;
 }
+/* Наведение на элементы в верхнем меню*/
+.top-menu-form-search input[type="search"]:hover {
+    background-color: #212a3a;
+}
+
+.top-menu-bookmarks:hover {
+    background-color: #212a3a;
+}
+
+.top-menu-basket:hover {
+    background-color: #212a3a;
+}
+
+.top-menu-order:hover {
+    background-color: #5fbb2d;
+}
+
+/* Наведение на ссылки для регистрации и входа*/
+.user-menu .user-btn:hover {
+    color: #ee3643;
+}
+
+/* Наведение на меню пользователя */
+.user-menu-registered .user-orders:hover, .user-menu-registered .user-profile:hover {
+    color: #ee3643;
+}
+
+/* Наведение на элементы главного меню*/
+.head-menu a:hover {
+    background-color: #293449;
+}
+
+/*Клик на элементы в верхнем меню, кроме поиска*/
+.top-menu-bookmarks:active {
+    background-color: #161d29;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.top-menu-basket:active {
+    background-color: #161d29;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.top-menu-order:active {
+    background-color: #518534;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*Клик на ссылки регистрации и входа*/
+.user-menu .user-btn:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/*Клик на элементы меню пользователя*/
+.user-menu-registered .user-name:active, .user-menu-registered .user-exit:active, .user-menu-registered .user-orders:active, .user-menu-registered .user-profile:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/* Клик на элементы главного меню*/
+.head-menu a:active {
+    background-color: #1d2739;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*Фокус в поле поиска*/
+.top-menu-form-search input[type="search"]:focus {
+    color: black;
+
+    background-color: white;
+}
 
 .top-menu-form-search input[type="search"]::placeholder {
     color: white;
