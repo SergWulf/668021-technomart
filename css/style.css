@@ -112,6 +112,28 @@ a {
     color: rgba(50, 66, 92, 0.3);
 }
 
+/* Логотип: покой, наведение, клик*/
+.logo-link {
+    display: inline-block;
+    height: 47px;
+    width: 220px;
+    background-color: white;
+    background-image: url("../img/logo-header-sprite.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.logo-link:hover {
+    background-image: url("../img/logo-header-sprite.png");
+    background-position: center;
+}
+
+
+.logo-link:active {
+    background-image: url("../img/logo-header-sprite.png");
+    background-position: bottom;
+}
+
 /*Клик на ссылку в блоке преимуществ продуктов каталога */
 .catalog-products-and-benefits .card a:active {
     background-color: rgba(0, 0, 0, 0.3);
