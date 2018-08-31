@@ -776,9 +776,25 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 }
 
+/* Навигация по страницам каталога: покой, наведение, клик*/
 .page-switch li {
-    border: 1px solid #eaeaea;
+    border: 1px solid #e5e5e5;
     display: inline-block;
+}
+
+.page-switch li:hover {
+    border: 1px solid #bdc6ca;
+
+}
+
+.page-switch li:active {
+    border: 1px solid #ee3643;
+}
+
+.page-switch .page-switch-current, .page-switch .page-switch-current:hover, .page-switch .page-switch-current:active {
+    background-color: #ee3643;
+    color: white;
+    border: none;
 }
 
 .page-switch a {
