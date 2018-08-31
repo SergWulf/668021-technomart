@@ -33,7 +33,7 @@ a {
     background-color: #293449;
 }
 
-/* пока не разобрался, как задать стиль для placeholder */
+
 .top-menu-form-search input[type="search"] {
     font-family: "Cuprum", sans-serif;
     font-size: 17px;
@@ -45,6 +45,7 @@ a {
 
     border: none;
 }
+
 /* Наведение на элементы в верхнем меню*/
 .top-menu-form-search input[type="search"]:hover {
     background-color: #212a3a;
@@ -75,6 +76,45 @@ a {
 /* Наведение на элементы главного меню*/
 .head-menu a:hover {
     background-color: #293449;
+}
+
+/*Наведение на ссылку в блоке преимуществ продуктов каталога */
+.catalog-products-and-benefits .card a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*Наведение на кнопку(ссылку) */
+.btn:hover {
+    background-color: #ca2c37;
+}
+
+/*Наведение на кнопку(ссылку) */
+.btn:active {
+    background-color: #ba2732;
+}
+
+/*Наведение на кнопки(ссылки) карточки товара)*/
+.card-product .card-product-buy:hover {
+    background-color: #5fbb2d;
+}
+
+.card-product .card-product-bookmark-in:hover {
+    border: 3px solid #32425c;
+}
+
+/*Клик на кнопки(ссылки) карточки товара)*/
+.card-product .card-product-buy:active {
+    background-color: #518534;
+}
+
+.card-product .card-product-bookmark-in:active {
+    border: 3px solid rgba(50, 66, 92, 0.3);
+    color: rgba(50, 66, 92, 0.3);
+}
+
+/*Клик на ссылку в блоке преимуществ продуктов каталога */
+.catalog-products-and-benefits .card a:active {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /*Клик на элементы в верхнем меню, кроме поиска*/
