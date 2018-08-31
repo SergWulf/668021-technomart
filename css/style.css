@@ -178,6 +178,8 @@ a {
     background-color: white;
 }
 
+
+
 .top-menu-form-search input[type="search"]::placeholder {
     color: white;
 }
@@ -392,6 +394,17 @@ a {
 /*Секция популярные производители*/
 .popular-manufacturers-list {
 	list-style: none;
+}
+
+.popular-manufacturers-list li:hover {
+    border: none;
+    box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.popular-manufacturers-list li:active {
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(41, 52, 73, 0.5);
+    opacity: 0.3;
 }
 
 .popular-manufacturers-list li {
