@@ -506,10 +506,6 @@ a {
 }
 /* Секции о компании и контакты*/
 
-.index-column {
-    background-color: white;
-}
-
 .about-company-title, .contacts-company-title {
     font-family: "Cuprum", sans-serif;
     font-size: 30px;
@@ -1141,8 +1137,86 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	align-items: center;
 }
 
-/*Сетки. Блок сервисов магазина */
+.popular-manufacturers {
+	margin-bottom: 85px;
+}
 
+/*Сетки. Блок сервисов магазина */
+.services-shop {
+	padding-top: 65px;
+}
+
+.services-shop h2, .services-shop h3, .services-shop p, .services-shop ul {
+	margin: 0;
+	padding: 0;
+}
+
+.services-shop .services-shop-title {
+	margin-bottom: 32px;
+}
+
+.services-shop-description {
+	min-width: 400px;
+	width: 400px;
+	margin-bottom: 70px;
+}
+
+.services-shop-list {
+	min-width: 240px;
+	width: 240px;
+	min-height: 182px;
+	height: 182px;
+	background-color: #4d637b;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.services-shop-list li a {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	min-width: 240px;
+	width: 240px;
+	min-height: 60px;
+	height: 60px;
+	box-sizing: border-box;
+	padding-left: 20px;
+}
+
+.index-column {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-shop-list-description li {
+	min-width: 620px;
+	width: 620px;
+	min-height: 285px;
+	height: 285px;
+}
+
+.services-shop-list-description h3 {
+	margin-bottom: 30px;
+}
+
+.services-shop-delivery p {
+	min-width: 276px;
+	width: 276px;
+}
+
+
+.services-shop-guarantee p {
+	min-width: 380px;
+	width: 380px;
+}
+
+.services-shop-credit p {
+	min-width: 280px;
+	width: 280px;
+	margin-bottom: 30px;
+}
 
 
 
