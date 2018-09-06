@@ -1288,3 +1288,66 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .container-stabber .index-column {
 	padding-bottom: 86px;
 }
+
+/*Сетки. Подвал.*/
+.main-footer {
+   
+}
+
+.footer-top .logo-link {
+    min-width: 220px;
+    width: 220px;
+    min-height: 68px;
+    height: 68px;
+    margin-bottom: 30px;
+}
+
+.main-footer ul, .main-footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-top .container-stabber {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-top .contacts-company-footer {
+    order: 1;
+    margin-bottom: 50px;
+}
+
+.menu-catalog-footer {
+    order: 2;
+    display: flex;
+}
+
+.footer-top .head-menu-footer {
+    margin-top: 40px;
+    display: flex;
+}
+
+.head-menu-footer li, .menu-catalog-footer li {
+    margin-left: 60px;
+}
+
+.footer-bottom {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.footer-bottom .container-stabber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p, .footer-bottom ul {
+    margin: 0;
+    padding: 0;
+}
+
+.feedback-company {
+    margin-left: 0;
+}
