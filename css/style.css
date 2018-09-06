@@ -247,6 +247,7 @@ a {
 .container {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 /* Нужно ли комментировать каждый блок для стилей? */
 /*Секция каталога продуктов и слайдер*/
@@ -1042,9 +1043,9 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 /* Сетки. Блок каталога и преимеществ.*/
-.catalog-products-and-benefits .container-stabber {
-    padding-top: 59px;
-    padding-bottom: 53px;
+.catalog-products-and-benefits .container-stabber {  	
+        padding-top: 59px;
+        margin-bottom: 53px;
 }
 
 .catalog-products-and-benefits h2, .catalog-products-and-benefits h3 {
@@ -1085,7 +1086,40 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     margin-top: 20px;
 }
 
+/*Сетки. Блок популярные товары */
 
+.title-block {
+	min-height: 89px;
+	height: 89px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 24px;
+	margin-bottom: 20px;
+}
+
+.card-product {
+	min-width: 220px;
+	width: 220px;
+	min-height: 318px; 
+	height: 318px;
+}
+
+.popular-products-list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.popular-products {
+	margin-bottom: 20px;
+}
+
+/*Сетки. Блок популярные производители */
+
+/*Сетки. Блок сервисов магазина */
 
 
 
