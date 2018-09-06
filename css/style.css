@@ -406,6 +406,15 @@ a {
 	list-style: none;
 }
 
+.popular-manufacturers-title {
+	font-family: "Cuprum", sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
 .popular-manufacturers-list li:hover {
     border: none;
     box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
@@ -1144,6 +1153,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 /*Сетки. Блок сервисов магазина */
 .services-shop {
 	padding-top: 65px;
+	margin-bottom: 80px;
 }
 
 .services-shop h2, .services-shop h3, .services-shop p, .services-shop ul {
@@ -1219,5 +1229,62 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 
+/*Сетки. Блоки о компании и контакты */
 
+.about-company h2, .about-company ul, .about-company p {
+	margin: 0;
+	padding: 0;
+}
 
+.about-company .about-company-title {
+	margin-bottom: 35px;
+}
+
+.about-company .about-company-description {
+	margin-bottom: 30px;
+	min-width: 520px;
+	width: 520px;
+}
+
+.about-company .delivery-description {
+	margin-bottom: 26px;
+	min-width: 390px;
+	width: 390px;
+}
+
+.delivery-info {
+	margin-bottom: 40px;
+}
+
+.delivery-company-list {
+	min-height: 87px;
+	height: 87px;
+	
+}
+
+.contacts-company h2, .contacts-company p {
+	margin: 0;
+	padding: 0;
+}
+
+.contacts-company .contacts-company-title {
+	margin-bottom: 35px;
+}
+
+.contacts-company .contacts-company-description {
+	min-width: 180px;
+	width: 180px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	display: block;
+}
+
+.company-map {
+	margin-bottom: 40px;
+}
+
+.container-stabber .index-column {
+	padding-bottom: 86px;
+}
