@@ -22,7 +22,10 @@ a {
 
 /*Шапка сайта*/
 .main-header {
+    margin: 0;
+    padding: 0;
     background-color: #f4f7f9;
+
 }
 
 .top-menu {
@@ -241,11 +244,16 @@ a {
 
     list-style: none;
 }
-
+.container {
+    margin: 0;
+    padding: 0;
+}
 /* Нужно ли комментировать каждый блок для стилей? */
 /*Секция каталога продуктов и слайдер*/
 .catalog-products-and-benefits ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .catalog-products-and-benefits .card h3 {
@@ -883,6 +891,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 /* Шапка */
 .container-stabber {
+    min-width: 940px;
     width: 940px;
     padding: 0 10px;
     margin: 0 auto;
@@ -901,10 +910,13 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 
 .top-menu li:nth-of-type(2) {
+    min-width: 270px;
     width: 270px;
 }
 
 .top-menu li:nth-of-type(3) a, .top-menu li:nth-of-type(4) a, .top-menu li:nth-of-type(5) a {
+    min-width: 150px;
+    min-height: 42px;
     height: 42px;
     width: 150px;
     display: flex;
@@ -1028,6 +1040,52 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .container-user-menu-registered a:last-child {
     margin-left: 30px;
 }
+
+/* Сетки. Блок каталога и преимеществ.*/
+.catalog-products-and-benefits .container-stabber {
+    padding-top: 59px;
+    padding-bottom: 53px;
+}
+
+.catalog-products-and-benefits h2, .catalog-products-and-benefits h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.catalog-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    width: 300px;
+}
+
+.card {
+    min-height: 123px;
+    height: 123px;
+    min-width: 300px;
+    width: 300px;
+}
+
+.discount {
+    margin: 20px 0;
+}
+
+.slider-card {
+    min-height: 266px;
+    height: 266px;
+    min-width: 620px;
+    width: 620px;
+
+    margin-top: 20px;
+}
+
+
 
 
 
