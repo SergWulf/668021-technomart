@@ -1351,3 +1351,17 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .feedback-company {
     margin-left: 0;
 }
+
+
+/*Сетка каталога. Хлебные крошки*/
+.path-catalog .breadcrumbs {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	padding: 20px 0;
+}
+
+.path-catalog .breadcrumbs li {
+	margin-left: 20px;
+}
+
