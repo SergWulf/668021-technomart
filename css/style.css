@@ -1390,6 +1390,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .container-catalog {
     min-width: 700px;
     width: 700px;
+    margin-bottom: 60px;
 }
 
 .catalog-item-sorting {
@@ -1418,6 +1419,42 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     margin-bottom: 52px;
 }
 
-.catalog-item-view-products .list-view-products li:nth-of-type(3n){
+.catalog-item-view-products .list-view-products li:nth-of-type(1), .catalog-item-view-products .list-view-products li:nth-of-type(4){
     margin-bottom: 20px;
+}
+
+/*Сетка каталога. Переключатель страниц карточек товаров.*/
+.page-switch {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.page-switch li {
+    margin-right: 10px;
+}
+.page-switch li a {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-switch li .next {
+    width: 140px;
+}
+
+/*Сетка каталога. Блок описания вида товара*/
+.description-catalog-item-product h2, .description-catalog-item-product p {
+    margin: 0;
+    padding: 0;
+}
+
+.description-catalog-item-product .item-product-title {
+    margin-top: 66px;
+    margin-bottom: 36px;
+}
+
+.description-catalog-item-product .item-product-description {
+    margin-bottom: 72px;
 }
