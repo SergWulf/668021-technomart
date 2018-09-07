@@ -1365,3 +1365,9 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	margin-left: 20px;
 }
 
+.catalog-item h2 {
+    margin: 0;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
