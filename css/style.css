@@ -984,7 +984,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     padding: 0;
 }
 
-.contacts-company p:first-child {
+.contacts-company .phone {
     height: 45px;
     display: flex;
     justify-content: center;
@@ -1130,7 +1130,6 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 .popular-manufacturers-list li:nth-of-type(2) {
 	margin-bottom: 20px;
-	/* Непонятно, как сделать отступы между flex-wrap, здесь кустарным способом сделано*/
 }
 
 .popular-manufacturers-list li {
@@ -1413,10 +1412,10 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 52px;
+    margin-bottom: 32px;
 }
 
-.catalog-item-view-products .list-view-products li:nth-of-type(1), .catalog-item-view-products .list-view-products li:nth-of-type(4){
+.catalog-item-view-products .list-view-products li:nth-of-type(3n) {
     margin-bottom: 20px;
 }
 
