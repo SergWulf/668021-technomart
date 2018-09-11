@@ -915,9 +915,10 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 
-.top-menu li:nth-of-type(2) {
+.top-menu li:nth-of-type(2) .top-menu-form-search input {
     min-width: 270px;
     width: 270px;
+    height: 42px;
 }
 
 .top-menu .top-menu-bookmarks, .top-menu .top-menu-basket, .top-menu .top-menu-order {
@@ -932,9 +933,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 .top-menu li:nth-of-type(2) {
     height: 42px;
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
+    display: flex;  
 }
 
 
