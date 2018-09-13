@@ -181,10 +181,8 @@ a {
 /*Фокус в поле поиска*/
 .top-menu-form-search input[type="search"]:focus {
     color: black;
-
     background-color: white;
 }
-
 
 
 .top-menu-form-search input[type="search"]::placeholder {
@@ -929,36 +927,61 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     height: 42px;
     padding-left: 49px;
 }
-
+/*
 .top-menu li:nth-of-type(2) .top-menu-form-search::before {
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 13px;
+    left: 17px;
     background: url("../img/icon-search.svg") no-repeat 0 0;
+    opacity: 0.5;
+    fill: crimson;
+}*/
 
+.top-menu li:nth-of-type(2) .top-menu-form-search svg {
+    position: absolute;
+    top: 13px;
+    left: 17px;
 }
+
+.top-menu li:nth-of-type(2) .top-menu-form-search:hover svg path {
+fill: red;
+}
+
 
 .top-menu .top-menu-bookmarks, .top-menu .top-menu-basket, .top-menu .top-menu-order {
     min-width: 150px;
     min-height: 42px;
+    max-width: 150px;
+    max-height: 42px;
     height: 42px;
     width: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
+    box-sizing: border-box;
+}
+.top-menu-bookmarks {
+    padding-left: 44px;
 }
 
+.top-menu-basket {
+    padding-left: 50px;
+}
+
+.top-menu-order {
+    padding-left: 20px;
+}
 .top-menu-bookmarks::before {
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 13px;
+    left: 17px;
     background: url("../img/icon-bookmark.svg") no-repeat 0 0;
 }
 
@@ -967,8 +990,8 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     width: 17px;
     height: 17px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 13px;
+    left: 17px;
     background: url("../img/icon-cart.svg") no-repeat 0 0;
 
 }
