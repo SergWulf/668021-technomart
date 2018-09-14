@@ -324,10 +324,21 @@ a {
     align-items: center;
     width: 135px;
     height: 38px;
+    border-radius: 3px;
 }
 
 .materials a, .instruments a {
     margin-left: 25px;
+}
+
+.device a, .discount a, .delivery a {
+	margin-left: 23px;
+}
+
+.card.device h3, .card.discount h3, .card.delivery h3 {
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-bottom: 15px;
 }
 
 .card.materials h3, .card.instruments h3 {
@@ -336,21 +347,102 @@ a {
     margin-bottom: 15px;
 }
 
-.catalog-products-and-benefits .slider-card h3 {
+.card.materials::before {
+	content: "";
+	width: 44px;
+	height: 65px;
+	position: absolute;
+	top: 31px;
+	right: 43px;
+	background: url("../img/icon-1.svg") no-repeat 0 0;
+}
+
+.card.instruments::before {
+	content: "";
+	width: 75px;
+	height: 61px;
+	position: absolute;
+	top: 33px;
+	right: 28px;
+	background: url("../img/icon-2.svg") no-repeat 0 0;
+}
+
+.card.device::before {
+	content: "";
+	width: 78px;
+	height: 62px;
+	position: absolute;
+	top: 31px;
+	right: 31px;
+	background: url("../img/icon-3.svg") no-repeat 0 0;
+}
+
+.card.discount::before {
+	content: "";
+	width: 59px;
+	height: 72px;
+	position: absolute;
+	top: 26px;
+	right: 45px;
+	background: url("../img/icon-4.svg") no-repeat 0 0;
+}
+
+.card.delivery::before {
+	content: "";
+	width: 78px;
+	height: 63px;
+	position: absolute;
+	top: 32px;
+	right: 31px;
+	background: url("../img/icon-5.svg") no-repeat 0 0;
+}
+
+
+
+.slider-card h3 {
     font-family: "Cuprum", sans-serif;
     font-size: 36px;
     font-weight: bold;
     line-height: 36px;
     color: white;
     text-transform: uppercase;
+
+    margin: 0;
+    padding: 0;
 }
 
-.catalog-products-and-benefits .slider-card span {
+.catalog-products-and-benefits .slider-card h3 {
+	margin-top: 24px;
+	margin-left: 24px;
+	margin-bottom: 5px;
+}
+
+.slider-card p {
     font-family: "Cuprum", sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: normal;
     color: white;
+
+    margin: 0;
+    padding: 0;
+    outline: 3px solid green;
+}
+
+.catalog-products-and-benefits .slider-card p {
+	margin-left: 25px;
+	margin-bottom: 125px;
+}
+
+.slider-card .btn {
+	width: 195px;
+	height: 38px;
+	border-radius: 3px;
+	margin-left: 25px;
+
+	align-items: center;
+	padding-left: 49px;
+	box-sizing: border-box;	
 }
 
 .btn {
@@ -389,14 +481,14 @@ a {
 
 .drills {
     background-color: #293449;
-    background-image: url("../img/slider1.jpg");
+    background-image: url("../img/slider2.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .rock-drills {
     background-color: #293449;
-    background-image: url("../img/slider2.jpg");
+    background-image: url("../img/slider1.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1198,6 +1290,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     min-width: 300px;
     width: 300px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .discount {
@@ -1399,7 +1492,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .btn {
-	display: block;
+	display: flex;
 }
 
 .company-map {
