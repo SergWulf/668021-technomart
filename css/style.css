@@ -304,6 +304,9 @@ a {
     font-weight: bold;
     line-height: 30px;
     color: white;
+
+    margin: 0;
+    padding: 0;
 }
 
 .catalog-products-and-benefits .card a {
@@ -315,6 +318,22 @@ a {
     text-transform: uppercase;
 
     background-color: rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 38px;
+}
+
+.materials a, .instruments a {
+    margin-left: 25px;
+}
+
+.card.materials h3, .card.instruments h3 {
+    margin-top: 23px;
+    margin-left: 23px;
+    margin-bottom: 15px;
 }
 
 .catalog-products-and-benefits .slider-card h3 {
@@ -1164,6 +1183,8 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     flex-wrap: wrap;
 }
 
+
+
 .benefits {
     display: flex;
     flex-wrap: wrap;
@@ -1176,6 +1197,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     height: 123px;
     min-width: 300px;
     width: 300px;
+    box-sizing: border-box;
 }
 
 .discount {
