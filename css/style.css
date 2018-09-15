@@ -712,6 +712,7 @@ img {
 .services-shop .services-shop-list a:active, .services-shop .services-shop-list .active-item {
     color: #32425c;
     background-color: white;
+    border: none;
 }
 
 .services-shop-list-description h3 {
@@ -781,6 +782,35 @@ img {
     line-height: 20px;
     font-weight: normal;
     color: black;
+    padding-left: 36px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.delivery-company-list li:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: #ee3643;
+    top: 9px;
+    left: 0;
+}
+
+.about-company-more {
+    width: 220px;
+    height: 38px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+.write-us {
+    width: 300px;
+    height: 38px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Футер*/
@@ -825,8 +855,46 @@ img {
     color: white;
 }
 
+.copyright-company {
+    margin-right: 160px;
+}
+
+.social-links {
+    margin-right: 118px;
+}
+
+.feedback-company {
+    margin-right: 53px;
+}
+
 .social-links-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 134px;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+
+.social-button {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    background-color: #212a3a;
+    border-radius: 50%;
+}
+
+.social-button:hover {
+    background-color: #ee3643;
+}
+
+.social-button:active {
+    background-color: #ee3643;
 }
 
 .feedback-company a, .developed-by a {
@@ -1493,14 +1561,24 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .services-shop-list {
 	min-width: 240px;
 	width: 240px;
-	min-height: 182px;
-	height: 182px;
+	min-height: 186px;
+	height: 186px;
 	background-color: #4d637b;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+    position: relative;
 }
 
+.services-shop-list::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 272px;
+    background: url("../img/line-menu-services.png") no-repeat 0 0;
+    right: 0;
+    top: -43px;
+}
 
 .services-shop-list li a {
 	display: flex;
@@ -1508,10 +1586,12 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	align-items: center;
 	min-width: 240px;
 	width: 240px;
-	min-height: 60px;
-	height: 60px;
+	min-height: 62px;
+	height: 62px;
 	box-sizing: border-box;
 	padding-left: 20px;
+    border-top: 1px solid #405069;
+    border-bottom: 1px solid #293449;
 }
 
 .index-column {
@@ -1658,7 +1738,6 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 .footer-bottom .container-stabber {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
