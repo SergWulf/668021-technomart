@@ -666,6 +666,7 @@ img {
 
 .popular-manufacturers-list li {
 	border: 1px solid #eaeaea;
+    box-sizing: border-box;
 }
 
 /*Секция сервис*/
