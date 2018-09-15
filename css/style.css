@@ -16,6 +16,13 @@ a {
     color: white;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 12px;
+}
+
 .visually-hidden {
 	display: none;
 }
@@ -57,20 +64,30 @@ a {
     background-color: #212a3a;
 }
 
+.top-menu-form-search input[type="search"]:hover + .svg-search {
+    opacity: 1;
+}
+.top-menu-bookmarks::before {
+    opacity: 0.3;
+}
+
 .top-menu-bookmarks:hover {
     background-color: #212a3a;
 }
 
 .top-menu-bookmarks:hover::before {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .top-menu-basket:hover {
     background-color: #212a3a;
 }
 
+.top-menu-basket::before {
+    opacity: 0.3;
+}
 .top-menu-basket:hover::before {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .top-menu-order:hover {
@@ -476,11 +493,26 @@ a {
 
     background-color: #ee3643;
 }
+.flag{
+    position:absolute;
+    top:-1px;
+    right:-1px;
+    width:60px;
+    height:60px;
+    text-indent: -1000px;
+    overflow:hidden;
+    z-index:20;
+}
+
+.catalog-items .flag {
+    right: 0;
+    top: 0;
+}
 
 .new {
     background-image: url(../img/new-flag.png);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: 0 0;
 }
 
 .container {
@@ -551,15 +583,29 @@ a {
 	line-height: 20px;
 	font-weight: bold;
 	color: black;
+
+    min-height:40px;
+    padding:0 25px;
+    margin-top:10px;
+    margin-bottom:15px;
 }
 
-.card-product-old-price {
+.card-product span {
+    display: block;
+}
+
+.card-product .card-product-old-price {
 	font-family: "PT Sans", sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: bold;
 	color: #a9a9a9;
 	text-decoration: line-through;
+
+    min-height:20px;
+    margin-top:15px;
+    margin-bottom:10px;
+
 } 
 
 .card-product-price-btn {
@@ -572,6 +618,25 @@ a {
 	background-color: #ee3643;
 
 	display: block;
+
+    position:relative;
+    width: 80px;
+    height: 20px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.card-product-price-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right:-20px;
+    width: 0;
+    height: 0;
+    border: 20px solid white;
+    border-left-color:#ee3643;
 }
 
 /*Секция популярные производители*/
@@ -1109,6 +1174,10 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     left: 17px;
 }
 
+.field-search + .svg-search {
+    opacity: 0.3;
+}
+
 .field-search:focus + .svg-search path {
     fill: #ee3643;
 }
@@ -1342,11 +1411,23 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	margin-bottom: 20px;
 }
 
+.title-block .btn {
+    width: 253px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
 .card-product {
 	min-width: 220px;
 	width: 220px;
 	min-height: 318px; 
 	height: 318px;
+
+    text-align: center;
+    position: relative;
+    z-index: 10;
 }
 
 .popular-products-list {
