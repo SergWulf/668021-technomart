@@ -1807,11 +1807,65 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	padding: 0;
 	display: flex;
 	padding: 20px 0;
+    position: relative;
+}
+.path-catalog a {
+    display: flex;
+}
+.path-catalog .home-page {
+    width: 15px;
+    height: 12px;
+    background: url("../img/icon-home.svg") no-repeat 0 0;
+    position: relative;
+    top: 3px;
 }
 
-.path-catalog .breadcrumbs li {
-	margin-left: 20px;
+.path-catalog .catalog-page {
+    padding-left: 42px;
+    position: relative;
 }
+
+.path-catalog .catalog-page::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background: url("../img/icon-right-small.svg") no-repeat 0 0;
+    top: 3px;
+    left: 16px;
+
+}
+
+.path-catalog .instruments-page {
+    padding-left: 40px;
+    position: relative;
+}
+
+.path-catalog .instruments-page::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background: url("../img/icon-right-small.svg") no-repeat 0 0;
+    top: 3px;
+    left: 17px;
+}
+
+.path-catalog .rock-drills-page {
+    padding-left: 44px;
+    position: relative;
+}
+
+.path-catalog .rock-drills-page::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background: url("../img/icon-right-small.svg") no-repeat 0 0;
+    top: 3px;
+    left: 19px;
+}
+
 /*Сетка каталога. Заголовк раздела каталога*/
 .catalog-item .container-stabber {
     display: flex;
