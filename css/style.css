@@ -1400,21 +1400,71 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
+    align-content: flex-start;
 }
 
 .user-name {
     width: 300px;
+    height: 45px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    padding-left: 47px;
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.user-name .icon-user {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    top: 14px;
+    left: 13px;
+}
+
+.user-name .icon-logout {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 17px;
+    top: 14px;
+    right: 10px;
+}
+
+.user-name:hover .icon-user path, .user-name:hover .icon-logout path {
+    fill: #32425c;
+}
+
+.user-name:active .icon-user path, .user-name:active .icon-logout path {
+    opacity: 0.3;
+}
+
+.container-user-menu-registered {
+    height: 20px;
+    width: 230px;
+    display: flex;
+
 }
 
 .container-user-menu-registered a:first-child {
-    margin-left: 20px;
+    padding-left: 17px;
 }
 
 .container-user-menu-registered a:last-child {
-    margin-left: 30px;
+    padding-left: 31px;
+    position: relative;
+}
+
+.container-user-menu-registered a:last-child::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: 7px;
+    left: 15px;
+    background-color: #32425c;
+    border-radius: 50%;
 }
 
 /* Сетки. Блок каталога и преимеществ.*/
