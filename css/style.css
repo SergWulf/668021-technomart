@@ -144,6 +144,7 @@ img {
 /*Клик на кнопки(ссылки) карточки товара)*/
 .card-product .card-product-buy:active {
     background-color: #518534;
+    border: none;
 }
 
 .card-product .card-product-bookmark-in:active {
@@ -513,6 +514,60 @@ img {
     background-image: url(../img/new-flag.png);
     background-repeat: no-repeat;
     background-position: 0 0;
+}
+.action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 218px;
+    height: 88px;
+    padding: 40px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 10;
+}
+.card-product .action {
+    display:none;
+}
+.card-product:hover .action {
+    display:block;
+}
+
+.card-product-buy::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    background: url("../img/icon-cart.svg") no-repeat 0 0;
+    top: 12px;
+    left: 12px;
+    opacity: 0.3;
+}
+
+.card-product-buy:hover::before, .card-product-buy:active::before  {
+    opacity: 1;
+}
+
+.card-product-buy {
+    border-bottom: 3px solid #367315;
+    padding-top: 11px;
+    padding-left: 49px;
+}
+
+.card-product-bookmark-in {
+    border:3px solid #63a63e;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-product-buy, .card-product-bookmark-in {
+    display: flex;
+    width:135px;
+    height: 38px;
+    margin:0 auto;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .container {
