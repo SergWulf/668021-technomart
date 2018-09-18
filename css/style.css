@@ -1072,6 +1072,10 @@ img {
 	border: none;
     margin: 0;
     padding: 0;
+    width: 220px;
+    max-width: 220px;
+    box-sizing: border-box;
+
 }
 
 fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
@@ -1111,13 +1115,18 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .range-controls .bar {
-  width: 70%;
+  width: 140px;
   height: 2px;
 
   background: #00ca74;
 }
 
 .range-controls .toggle {
+  position: absolute;
+
+  top: 31px;
+  left: 0;
+
   width: 4px;
   height: 4px;
 
@@ -1125,8 +1134,37 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
   border: 8px solid #ffffff;
   background-color: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
 
   border-radius: 50%;
+}
+
+.range-controls .toggle-min {
+    left: 20px;
+}
+
+.range-controls .toggle-max {
+    left: 160px;
+}
+
+.price-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.price-controls .price-range-display {
+    width: 95px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f7f3ec;
+
+    border-radius: 3px;
+
 }
 
 .catalog-item-filter legend {
@@ -1140,6 +1178,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
     margin: 0;
     padding: 0;
+    margin-bottom: 13px;
 }
 
 .catalog-item-filter .price {
@@ -1147,7 +1186,8 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .catalog-item-filter .group-one {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
 
 }
 
@@ -1159,6 +1199,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     position: relative;
     width: 200px;
     height: 28px;
+    box-sizing: border-box;
 }
 
 .filter-options {
@@ -1273,6 +1314,11 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     left: 0;
 }
 */
+
+.form-group-field .filter-options {
+    margin-bottom: 12px;
+}
+
 .form-group-field ul {
     list-style: none;
     margin: 0;
@@ -1280,9 +1326,9 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 
-.price-range, .price-range-displayout {
-	background-color: #f7f3ec;
-}
+
+
+
 
 .form-group-field label {
 	font-family: "PT Sans", sans-serif;
