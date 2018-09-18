@@ -78,10 +78,19 @@
             <h3>Фильтр:</h3>
             <fieldset class="price">
                 <legend>Цена:</legend>
-                <input class="price-range" type="range" name="price" id="price-id" min="0" max="30000" step="500"><br>
-                <output class="price-range-displayout" name="price-range-min">0</output>
-                <span>-</span>
-                <output class="price-range-displayout" name="price-range-max">30000</output>
+                <div class="range-controls">
+                    <div class="scale">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="toggle toggle-min"></div>
+                    <div class="toggle toggle-max"></div>
+                    <input class="price-range visually-hidden" type="range" name="price" id="price-id" min="0" max="30000" step="500"><br>
+                </div>
+                <div class="price-controls">
+                    <output class="price-range-displayout" name="price-range-min">0</output>
+                    <span>-</span>
+                    <output class="price-range-displayout" name="price-range-max">30000</output>
+                </div>
             </fieldset>
             <fieldset class="form-group-field group-one">
                 <legend>Производители:</legend>
