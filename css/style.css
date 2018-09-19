@@ -8,7 +8,7 @@ body {
     line-height: 17px;
     font-weight: normal;
 
-    background-color: black;
+    background-color: white;
 }
 
 a {
@@ -235,7 +235,7 @@ img {
 }
 
 
-.head-title {
+.main-header .head-title {
     font-family: "Cuprum", sans-serif;
     font-size: 16px;
     line-height: 23px;
@@ -243,6 +243,7 @@ img {
     font-style: italic;
     color: #ee3643;
 }
+
 
 .contacts-company-header .phone {
     font-family: "Cuprum", sans-serif;
@@ -254,6 +255,7 @@ img {
     border: 3px solid white;
     box-sizing: border-box;
     padding-left: 72px;
+
 }
 
 .contacts-company-header .phone::before {
@@ -272,6 +274,8 @@ img {
     line-height: 24px;
     font-weight: normal;
     color: #32425c;
+
+    padding-left: 11px;
 }
 
 .user-menu .user-btn {
@@ -1644,7 +1648,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     margin: 0;
     padding: 0;
     height: 42px;
-    margin-bottom: 30px;
+    margin-bottom: 46px;
 }
 
 .top-menu .container-stabber {
@@ -1664,7 +1668,9 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     min-width: 270px;
     width: 270px;
     height: 42px;
-    padding-left: 49px;
+    padding-left: 48px;
+    padding-top: 0;
+
 }
 
 .top-menu li:nth-of-type(2) .top-menu-form-search svg {
@@ -1739,15 +1745,66 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    box-shadow: 0 6px 0 0 #293449;
+    justify-content: flex-start;
+    box-shadow: 0 5px 0 0 #293449;
+
+    width: 940px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .head-menu a {
-    display: flex;
+    display: block;
     height: 55px;
-    align-items: center;
-    padding: 0 30px;
+    /*align-items: center;
+    padding: 0 31px;
+    outline: 1px solid crimson;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.head-menu li:nth-of-type(1) a {
+    padding-top: 20px;
+    padding-left: 52px;
+    padding-right: 34px;
+}
+
+.head-menu li:nth-of-type(2) a {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 29px;
+}
+
+.head-menu li:nth-of-type(3) a {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.head-menu li:nth-of-type(4) a {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.head-menu li:nth-of-type(5) a {
+    padding-top: 20px;
+    padding-left: 29px;
+    padding-right: 31px;
+}
+
+.head-menu li:nth-of-type(6) a {
+    padding-top: 20px;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.head-menu li:nth-of-type(7) a {
+    padding-top: 20px;
+    padding-left: 32px;
+    padding-right: 54px;
 }
 
 .main-header {
@@ -1757,13 +1814,12 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .head-title {
     margin: 0;
     padding: 0;
-    min-width: 200px;
-    min-height: 70px;
+    min-width: 197px;
+    width: 197px;
 
-    margin-left: 50px;
-    margin-right: 70px;
-
-
+    margin-left: 53px;
+    margin-right: 69px;
+    padding-top: 3px;
 
 }
 
@@ -1774,9 +1830,6 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     min-height: 70px;
     width: 270px;
     height: 70px;
-
-
-
 }
 
 .contacts-company-header p {
@@ -1788,16 +1841,16 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     height: 45px;
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     position: relative;
 }
 
 .container-header {
     display: flex;
+    align-items: flex-start;
 
     /*align-items: ;*/
-    margin-bottom: 45px;
-
+    margin-bottom: 40px;
 }
 
 .user-menu {
