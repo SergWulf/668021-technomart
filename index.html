@@ -323,14 +323,26 @@
           </div>
       </div>
   </footer>
-  <form class="modal-feedback visually-hidden" name="form-feedback">
-      <label for="username-id">Ваше имя:</label>
-      <input type="text" name="username" id="username-id" placeholder="Имя Фамилия">
-      <label for="email-id">Ваш email:</label>
-      <input type="email" name="email" id="email-id" placeholder="email@example.com">
-      <label for="feedback-text-id">Текст письма:</label>
-      <textarea name="feedback-text" id="feedback-text-id" rows="10" cols="100" placeholder="В свободной форме"></textarea>
-      <input class="submit-form-feedback btn" type="submit" value="Отправить">
+  <form class="modal-feedback" name="form-feedback">
+      <div class="container-modal-feedback">
+        <div class="username-block">
+          <label for="username-id">Ваше имя:</label>
+          <input class="feedback-username" type="text" name="username" id="username-id" placeholder="Имя Фамилия">
+        </div>
+        <div class="email-block">
+          <label for="email-id">Ваш email:</label>
+          <input class="feedback-email" type="email" name="email" id="email-id" placeholder="email@example.com">
+        </div>
+        <div class="textarea-block">
+          <label for="feedback-text-id">Текст письма:</label>
+          <textarea name="feedback-text" id="feedback-text-id" placeholder="В свободной форме"></textarea>
+        </div>
+      </div>
+      <div class="modal-feedback-bottom-block">
+        <div class="container-modal-feedback">
+          <input class="submit-form-feedback btn" type="submit" value="Отправить">
+        </div>
+      </div>
   </form>
   </body>
 </html>
