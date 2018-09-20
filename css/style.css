@@ -358,15 +358,24 @@ img {
 }
 
 .card.device h3, .card.discount h3, .card.delivery h3 {
-    margin-top: 22px;
-    margin-left: 22px;
-    margin-bottom: 15px;
+    margin-top: 21px;
+    margin-left: 23px;
+    margin-bottom: 13px;
 }
 
+
 .card.materials h3, .card.instruments h3 {
-    margin-top: 23px;
+    margin-top: 21px;
     margin-left: 23px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
+}
+
+.catalog-items .card.instruments h3 {
+	margin-left: 22px;
+}
+
+.catalog-items .card.discount h3 {
+	margin-left: 22px;
 }
 
 .card.materials::before {
@@ -434,7 +443,7 @@ img {
 }
 
 .catalog-products-and-benefits .slider-card h3 {
-	margin-top: 22px;
+	margin-top: 23px;
 	margin-left: 24px;
     margin-bottom: 1px;
 }
@@ -477,14 +486,17 @@ img {
     background: url("../img/icon-right.svg") no-repeat 0 0;
 }
 
-.slider-card .btn {
+.catalog-items .slider-card .btn {
 	width: 195px;
 	height: 38px;
 	border-radius: 3px;
 	margin-left: 25px;
 
-	align-items: center;
-	padding-left: 49px;
+
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding-top: 11px;
+	padding-left: 50px;
 	box-sizing: border-box;	
 }
 
