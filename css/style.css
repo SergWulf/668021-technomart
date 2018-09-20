@@ -33,6 +33,10 @@ img {
     padding: 0;
     background-color: #f4f7f9;
 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
 }
 
 .top-menu {
@@ -445,13 +449,13 @@ img {
 .catalog-products-and-benefits .slider-card h3 {
 	margin-top: 23px;
 	margin-left: 24px;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
 }
 
 .slider-card p {
-    font-family: "PT Sans", sans-serif;
+    font-family: "Cuprum", sans-serif;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 24px;
     font-weight: normal;
     color: white;
 
@@ -463,7 +467,7 @@ img {
 
 .catalog-products-and-benefits .slider-card p {
 	margin-left: 25px;
-	margin-bottom: 122px;
+	margin-bottom: 121px;
 }
 
 .slider-card .slider-navigation-left {
@@ -472,7 +476,7 @@ img {
     width: 22px;
     height: 40px;
     top: 114px;
-    left: 24px;
+    left: 25px;
     background: url("../img/icon-left.svg") no-repeat 0 0;
 }
 
@@ -482,7 +486,7 @@ img {
     width: 22px;
     height: 40px;
     top: 114px;
-    right: 21px;
+    right: 20px;
     background: url("../img/icon-right.svg") no-repeat 0 0;
 }
 
@@ -655,14 +659,15 @@ img {
 	font-weight: bold;
 	color: black;
 
-    min-height:40px;
-    padding:0 25px;
-    margin-top:10px;
-    margin-bottom:15px;
+    min-height: 40px;
+    padding: 0 25px;
+    margin-top: 8px;
+    margin-bottom: 5px;
 }
 
 .card-product span {
     display: block;
+    padding-left: 3px;
 }
 
 .card-product .card-product-old-price {
@@ -673,9 +678,9 @@ img {
 	color: #a9a9a9;
 	text-decoration: line-through;
 
-    min-height:20px;
-    margin-top:15px;
-    margin-bottom:10px;
+    min-height: 20px;
+    margin-top: 11px;
+    margin-bottom: 8px;
 
 } 
 
@@ -691,22 +696,29 @@ img {
 	display: block;
 
     position:relative;
-    width: 80px;
-    height: 20px;
-    margin: 10px auto;
+    width: 140px;
+    height: 38px;
+
+    margin-top: 8px;
+    margin-left: 42px;
     margin-bottom: 20px;
     padding: 10px 30px;
     border-radius: 3px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
 }
 
 .card-product-price-btn::after {
     content: "";
     position: absolute;
     top: 0;
-    right:-20px;
+    right: -19px;
     width: 0;
     height: 0;
-    border: 20px solid white;
+    border: 19px solid white;
     border-left-color:#ee3643;
 }
 
@@ -722,6 +734,7 @@ img {
 	font-weight: normal;
 	color: #32425c;
 	text-transform: uppercase;
+    padding-top: 2px;
 }
 
 .popular-manufacturers-list li:hover {
@@ -807,7 +820,8 @@ img {
     background-color: #f4f8f9;
     background-image: url("../img/delivery.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
+
 
 }
 
@@ -815,14 +829,14 @@ img {
     background-color: #f4f8f9;
     background-image: url("../img/guarantee.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
 }
 
 .services-shop-credit {
     background-color: #f4f8f9;
     background-image: url("../img/credit.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
 }
 /* Секции о компании и контакты*/
 
@@ -2020,9 +2034,13 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-left: 30px;
+	padding-left: 28px;
 	padding-right: 24px;
 	margin-bottom: 20px;
+}
+
+.popular-manufacturers .title-block {
+    padding-left: 24px;
 }
 
 .title-block .btn {
@@ -2042,6 +2060,9 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     text-align: center;
     position: relative;
     z-index: 10;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .popular-products-list {
@@ -2084,8 +2105,12 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 /*Сетки. Блок сервисов магазина */
 .services-shop {
-	padding-top: 65px;
-	margin-bottom: 80px;
+	padding-top: 66px;
+	margin-bottom: 81px;
+}
+
+.services-shop .container-stabber {
+
 }
 
 .services-shop h2, .services-shop h3, .services-shop p, .services-shop ul {
@@ -2094,13 +2119,14 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .services-shop .services-shop-title {
-	margin-bottom: 32px;
+	margin-bottom: 26px;
 }
 
 .services-shop-description {
 	min-width: 400px;
 	width: 400px;
-	margin-bottom: 70px;
+	margin-bottom: 66px;
+    padding-left: 1px;
 }
 
 .services-shop-list {
@@ -2152,7 +2178,8 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .services-shop-list-description h3 {
-	margin-bottom: 30px;
+    padding-top: 1px;
+	margin-bottom: 25px;
 }
 
 .services-shop-delivery p {
@@ -2181,7 +2208,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .about-company .about-company-title {
-	margin-bottom: 35px;
+	margin-bottom: 26px;
 }
 
 .about-company .about-company-description {
@@ -2232,7 +2259,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .container-stabber .index-column {
-	padding-bottom: 86px;
+	padding-bottom: 0;
 }
 
 /*Сетки. Подвал.*/
