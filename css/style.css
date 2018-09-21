@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     color: white;
     font-size: 17px;
     line-height: 17px;
@@ -52,7 +52,7 @@ img {
 
 
 .top-menu-form-search input[type="search"] {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 17px;
     line-height: 18px;
     font-weight: normal;
@@ -240,7 +240,7 @@ img {
 
 
 .main-header .head-title {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 16px;
     line-height: 23px;
     font-weight: normal;
@@ -250,7 +250,7 @@ img {
 
 
 .contacts-company-header .phone {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: normal;
@@ -273,7 +273,7 @@ img {
 }
 
 .contacts-company-header .address {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: normal;
@@ -283,7 +283,7 @@ img {
 }
 
 .user-menu .user-btn {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: normal;
@@ -301,7 +301,7 @@ img {
 }
 
 .head-navigation .head-menu {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 17px;
     line-height: 17px;
     font-weight: normal;
@@ -325,7 +325,7 @@ img {
 }
 
 .catalog-products-and-benefits .card h3 {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
@@ -336,7 +336,7 @@ img {
 }
 
 .catalog-products-and-benefits .card a {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
@@ -435,7 +435,7 @@ img {
 
 
 .slider-card h3 {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 36px;
     font-weight: bold;
     line-height: 36px;
@@ -453,7 +453,7 @@ img {
 }
 
 .slider-card p {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: normal;
@@ -550,7 +550,7 @@ img {
 }
 
 .btn {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
@@ -588,7 +588,7 @@ img {
     height: 88px;
     padding: 40px 0;
     background-color: rgba(255, 255, 255, 0.9);
-    z-index: 10;
+    z-index: 50;
 }
 .card-product .action {
     display: none;
@@ -681,7 +681,7 @@ img {
 }
 
 .popular-products-title {
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: normal;
@@ -698,7 +698,7 @@ img {
 }
 
 .card-product h3 {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 20px;
 	font-weight: bold;
@@ -716,7 +716,7 @@ img {
 }
 
 .card-product .card-product-old-price {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: bold;
@@ -730,7 +730,7 @@ img {
 } 
 
 .card-product-price-btn {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: bold;
@@ -773,7 +773,7 @@ img {
 }
 
 .popular-manufacturers-title {
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: normal;
@@ -804,7 +804,7 @@ img {
 }
 
 .services-shop-title {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: normal;
@@ -813,7 +813,7 @@ img {
 }
 
 .services-shop-description {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     font-weight: normal;
@@ -825,7 +825,7 @@ img {
 }
 
 .services-shop-list a {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 21px;
     line-height: 30px;
     font-weight: bold;
@@ -845,7 +845,7 @@ img {
 }
 
 .services-shop-list-description h3 {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 36px;
     line-height: 36px;
     font-weight: normal;
@@ -854,7 +854,7 @@ img {
 }
 
 .services-shop-list-description p {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     font-weight: normal;
@@ -886,7 +886,7 @@ img {
 /* Секции о компании и контакты*/
 
 .about-company-title, .contacts-company-title {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: normal;
@@ -895,7 +895,7 @@ img {
 }
 
 .index-column p {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     font-weight: normal;
@@ -912,7 +912,7 @@ img {
 }
 
 .delivery-company-list li {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 18px;
     line-height: 20px;
     font-weight: normal;
@@ -968,7 +968,7 @@ img {
 }
 
 .footer-top a, .contacts-company-footer {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: normal;
@@ -989,7 +989,7 @@ img {
 }
 
 .copyright-company, .feedback-company, .developed-by {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 16px;
     line-height: 18px;
     font-weight: normal;
@@ -1054,7 +1054,12 @@ img {
 
 /*Форма связи*/
 .modal-feedback {
-    position: relative;
+    position: fixed;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 40;
 
     background-color: white;
     width: 620px;
@@ -1069,7 +1074,7 @@ img {
 }
 
 .modal-feedback label {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 18px;
     line-height: 18px;
     font-weight: normal;
@@ -1081,7 +1086,7 @@ img {
 }
 
 .modal-feedback input[placeholder], .modal-feedback textarea[placeholder] {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     font-weight: normal;
@@ -1192,7 +1197,7 @@ img {
 
 /*Стилизация каталога*/
 .user-name, .user-name a{
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: normal;
@@ -1202,7 +1207,7 @@ img {
 }
 
 .user-profile, .user-orders {
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
     font-size: 16px;
     line-height: 18px;
     font-weight: normal;
@@ -1219,7 +1224,7 @@ img {
 }
 
 .breadcrumbs a{
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     font-weight: normal;
@@ -1229,7 +1234,7 @@ img {
 }
 
 .catalog-item h2 {
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: normal;
@@ -1242,7 +1247,7 @@ img {
 /*Стилизация формы фильтров*/
 
 .catalog-item-filter h3 {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     font-weight: normal;
@@ -1278,7 +1283,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .price {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
     font-size: 17px;
     line-height: 18px;
     font-weight: normal;
@@ -1368,7 +1373,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .catalog-item-filter legend {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
     font-size: 17px;
     line-height: 30px;
 	font-weight: bold;
@@ -1543,7 +1548,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 
 .form-group-field label {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
     font-size: 15px;
     line-height: 20px;
     font-weight: normal;
@@ -1554,7 +1559,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .submit-button {
 	border: 1px solid #e5e5e5;
 
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     font-weight: normal;
@@ -1577,7 +1582,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .catalog-item-sorting a, .catalog-item-sorting h3 {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     font-weight: normal;
@@ -1640,7 +1645,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .card-btn {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
@@ -1674,7 +1679,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .page-switch a {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     font-weight: normal;
@@ -1689,7 +1694,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .description-catalog-item-product h2 {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: normal;
@@ -1698,7 +1703,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .description-catalog-item-product p {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     font-weight: normal;
@@ -1712,7 +1717,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .modal-add-product-in-basket h2 {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: normal;
@@ -1720,7 +1725,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .modal-add-product-footer-continue {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
@@ -1752,9 +1757,16 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     padding: 0;
     height: 42px;
     margin-bottom: 46px;
+
+}
+
+.container-top-menu {
+    height: 42px;
+    background-color: #293449;
 }
 
 .top-menu .container-stabber {
+    list-style: none;
     display: flex;
 }
 
