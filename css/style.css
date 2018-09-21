@@ -213,7 +213,7 @@ img {
 }
 
 /*Клик на элементы меню пользователя*/
-.user-menu-registered .user-name:active, .user-menu-registered .user-exit:active, .user-menu-registered .user-orders:active, .user-menu-registered .user-profile:active {
+.user-menu-registered .user-name a:active, .user-menu-registered .user-exit:active, .user-menu-registered .user-orders:active, .user-menu-registered .user-profile:active {
     color: rgba(0, 0, 0, 0.3);
 }
 
@@ -1146,7 +1146,7 @@ img {
 
 
 /*Стилизация каталога*/
-.user-name {
+.user-name, .user-name a{
 	font-family: "Cuprum", sans-serif;
     font-size: 21px;
     line-height: 21px;
@@ -1977,11 +1977,11 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     right: 10px;
 }
 
-.user-name:hover .icon-user path, .user-name:hover .icon-logout path {
+.user-name a:hover .icon-user path, .user-name a:hover .icon-logout path {
     fill: #32425c;
 }
 
-.user-name:active .icon-user path, .user-name:active .icon-logout path {
+.user-name a:active .icon-user path, .user-name a:active .icon-logout path {
     opacity: 0.3;
 }
 
