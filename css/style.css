@@ -20,7 +20,7 @@ img {
     max-width: 100%;
     height: auto;
     position: relative;
-    z-index: 12px;
+    z-index: 12;
 }
 
 .visually-hidden {
@@ -459,8 +459,6 @@ img {
     font-weight: normal;
     color: white;
 
-    width: 161px;
-
     margin: 0;
     padding: 0;
 }
@@ -488,6 +486,53 @@ img {
     top: 114px;
     right: 20px;
     background: url("../img/icon-right.svg") no-repeat 0 0;
+}
+
+.slider-card .slider-radio-btn {
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+
+.slider-card.drills .slider-radio-btn:nth-of-type(4)::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    z-index: 20;
+}
+
+.slider-card.rock-drills .slider-radio-btn:nth-of-type(3)::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    z-index: 20;
+}
+
+.slider-radio-btn:nth-of-type(3) {
+    top: 220px;
+    left: 295px;
+}
+
+.slider-radio-btn:nth-of-type(4) {
+    top: 220px;
+    left: 315px;
 }
 
 .catalog-items .slider-card .btn {
