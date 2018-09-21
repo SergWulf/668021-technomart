@@ -857,6 +857,11 @@ img {
     color: black;
 }
 
+.about-company p {
+    word-spacing: 1px;
+    pading-left: 1px;
+}
+
 .delivery-company-list {
     list-style: none;
 }
@@ -871,6 +876,7 @@ img {
     margin-bottom: 20px;
     position: relative;
 }
+
 
 .delivery-company-list li:before {
     content: "";
@@ -894,8 +900,13 @@ img {
     width: 300px;
     height: 38px;
     border-radius: 3px;
-    align-items: center;
-    justify-content: center;
+
+    padding-left: 5px;
+    padding-top: 1px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*Футер*/
@@ -911,7 +922,7 @@ img {
     list-style: none;
 }
 
-.head-navigation-footer a, .contacts-company-footer {
+.footer-top a, .contacts-company-footer {
     font-family: "Cuprum", sans-serif;
     font-size: 18px;
     line-height: 24px;
@@ -941,7 +952,8 @@ img {
 }
 
 .copyright-company {
-    margin-right: 160px;
+    padding-left: 2px;
+    margin-right: 162px;
 }
 
 .social-links {
@@ -2211,25 +2223,28 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	margin-bottom: 26px;
 }
 
+.about-company {
+    padding-left: 1px;
+}
+
 .about-company .about-company-description {
-	margin-bottom: 30px;
-	min-width: 520px;
-	width: 520px;
+	margin-bottom: 24px;
+	min-width: 522px;
+	width: 522px;
 }
 
 .about-company .delivery-description {
-	margin-bottom: 26px;
-	min-width: 390px;
-	width: 390px;
+	margin-bottom: 21px;
+	min-width: 395px;
+	width: 395px;
+    word-spacing: normal;
 }
 
 .delivery-info {
-	margin-bottom: 40px;
+    padding-bottom: 16px;
 }
 
 .delivery-company-list {
-	min-height: 87px;
-	height: 87px;
 	
 }
 
@@ -2239,13 +2254,13 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .contacts-company .contacts-company-title {
-	margin-bottom: 35px;
+	margin-bottom: 26px;
 }
 
 .contacts-company .contacts-company-description {
 	min-width: 180px;
 	width: 180px;
-	margin-bottom: 30px;
+	margin-bottom: 31px;
 }
 
 .btn {
@@ -2255,11 +2270,11 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .company-map {
-	margin-bottom: 40px;
+	margin-bottom: 37px;
 }
 
-.container-stabber .index-column {
-	padding-bottom: 0;
+.container-stabber  .index-column:first-child {
+	margin-bottom: 86px;
 }
 
 /*Сетки. Подвал.*/
@@ -2272,7 +2287,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     width: 220px;
     min-height: 68px;
     height: 68px;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 .main-footer ul, .main-footer p {
@@ -2289,6 +2304,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .footer-top .contacts-company-footer {
     order: 1;
     margin-bottom: 50px;
+    padding-left: 3px;
 }
 
 .menu-catalog-footer {
@@ -2297,16 +2313,17 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .footer-top .head-menu-footer {
-    margin-top: 40px;
+    margin-top: 38px;
     display: flex;
+
 }
 
 .head-menu-footer li, .menu-catalog-footer li {
-    margin-left: 60px;
+    margin-left: 59px;
 }
 
 .footer-bottom {
-    padding-top: 36px;
+    padding-top: 33px;
     padding-bottom: 36px;
 }
 
