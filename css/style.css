@@ -1180,6 +1180,7 @@ img {
     font-weight: normal;
     color: black;
     text-transform: uppercase;
+
 }
 
 .catalog-item h2 {
@@ -1212,8 +1213,8 @@ img {
     background-color: #f7f3ec;
     display: flex;
     align-items: center;
-    padding-left: 18px;
-    margin-bottom: 14px;
+    padding-left: 19px;
+    margin-bottom: 11px;
 
 }
 
@@ -1249,7 +1250,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 	border-radius: 0 0 3px 3px;
 
-	margin-bottom: 9px;
+	margin-bottom: 10px;
 	padding-top: 39px;
 	padding-right: 20px;
   	padding-left: 20px;
@@ -1314,6 +1315,11 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
     border-radius: 3px;
 
+    box-sizing: border-box;
+
+    padding-bottom: 2px;
+    padding-left: 4px;
+
 }
 
 .catalog-item-filter legend {
@@ -1330,18 +1336,30 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     margin-bottom: 13px;
 }
 
+
+
 .catalog-item-filter .price {
-    margin-bottom: 21px;
+    margin-bottom: 16px;
 }
 
 .catalog-item-filter .group-one {
-    margin-bottom: 20px;
-    padding-bottom: 4px;
-
+    margin-bottom: 17px;
+    padding-bottom: 2px;
 }
 
+
+
 .catalog-item-filter .group-two {
-    margin-bottom: 70px;
+    margin-bottom: 59px;
+}
+
+.group-one legend {
+	margin-bottom: 14px;
+}
+
+.group-two legend {
+	letter-spacing: 1px;
+	margin-bottom: 14px;
 }
 
 .filter-options {
@@ -1363,7 +1381,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     width: 25px;
     height: 25px;
 
-    top: 0;
+    top: -2px;
     left: 0;
 }
 
@@ -1525,6 +1543,9 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .catalog-item-sorting a {
 	border-bottom: 1px dotted #ee3643;
 	color: rgba(0, 0, 0, 0.3);
+
+	display: flex;
+	align-items: flex-start;
 }
 
 .catalog-item-sorting a:hover {
@@ -1589,8 +1610,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 /* Навигация по страницам каталога: покой, наведение, клик*/
 .page-switch li {
-    border: 1px solid #e5e5e5;
-    display: inline-block;
+    border: 1px solid #e5e5e5;    
 }
 
 .page-switch li:hover {
@@ -1861,6 +1881,10 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 }
 
+.contacts-company-header.catalog-header {
+	padding-top: 1px;
+}
+
 .contacts-company-header {
     margin: 0;
     padding: 0;
@@ -1930,7 +1954,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding-left: 47px;
+    padding-left: 49px;
     position: relative;
     margin-bottom: 7px;
 }
@@ -1969,7 +1993,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .container-user-menu-registered a:first-child {
-    padding-left: 17px;
+    padding-left: 20px;
 }
 
 .container-user-menu-registered a:last-child {
@@ -2101,7 +2125,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	margin-bottom: 20px;
 }
 
-.popular-manufacturers-list li {
+.popular-manufacturers-list li, .popular-manufacturers-list li a {
 	min-width: 220px;
 	width: 220px;
 	min-height: 145px;
@@ -2110,6 +2134,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 	justify-content: center;
 	align-items: center;
 }
+
 
 .popular-manufacturers {
 	margin-bottom: 85px;
@@ -2352,17 +2377,20 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 .path-catalog a {
     display: flex;
+    padding-top: 1px;
 }
+
 .path-catalog .home-page {
     width: 15px;
     height: 12px;
     background: url("../img/icon-home.svg") no-repeat 0 0;
     position: relative;
     top: 3px;
+    left: -1px;
 }
 
 .path-catalog .catalog-page {
-    padding-left: 42px;
+    padding-left: 40px;
     position: relative;
 }
 
@@ -2373,7 +2401,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     height: 12px;
     background: url("../img/icon-right-small.svg") no-repeat 0 0;
     top: 3px;
-    left: 16px;
+    left: 13px;
 
 }
 
@@ -2393,7 +2421,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .path-catalog .rock-drills-page {
-    padding-left: 44px;
+    padding-left: 43px;
     position: relative;
 }
 
@@ -2418,7 +2446,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     min-width: 940px;
     width: 940px;
     margin: 0;
-    padding: 30px;
+    padding: 30px 5px 29px 28px;
     margin-bottom: 20px;
     box-sizing: border-box;
 }
@@ -2479,13 +2507,17 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 .page-switch li {
     margin-right: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
 }
+
 .page-switch li a {
     width: 38px;
     height: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .page-switch li .next {
@@ -2496,13 +2528,26 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .description-catalog-item-product h2, .description-catalog-item-product p {
     margin: 0;
     padding: 0;
+
 }
 
+
+.description-catalog-item-product p {
+	    word-spacing: 2px;
+}
 .description-catalog-item-product .item-product-title {
-    margin-top: 66px;
-    margin-bottom: 36px;
+    margin-top: 64px;
+    margin-bottom: 26px;
 }
 
 .description-catalog-item-product .item-product-description {
-    margin-bottom: 72px;
+    margin-bottom: 67px;
+}
+
+.credit-application.btn {
+	width: 195px;
+	height: 38px;
+
+	box-sizing: border-box;
+	border-radius: 3px;
 }
