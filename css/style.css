@@ -9,6 +9,8 @@ body {
     font-weight: normal;
 
     background-color: white;
+
+    min-width: 960px;
 }
 
 a {
@@ -33,11 +35,13 @@ img {
     padding: 0;
     background-color: #f4f7f9;
 
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
 }
+
 
 .top-menu {
     font-size: 17px;
@@ -913,7 +917,7 @@ img {
 
 .about-company p {
     word-spacing: 1px;
-    pading-left: 1px;
+    padding-left: 1px;
 }
 
 .delivery-company-list {
@@ -1571,7 +1575,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     background-color: #f7f3ec;
 }
 
-.catalog-item-sorting a, .catalog-item-sorting h3 {
+.catalog-item-sorting .sorting a, .catalog-item-sorting h3 {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
@@ -1988,10 +1992,6 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 }
 
-.contacts-company-header.catalog-header {
-    padding-top: 1px;
-}
-
 .contacts-company-header {
     margin: 0;
     padding: 0;
@@ -2020,6 +2020,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
     /*align-items: ;*/
     margin-bottom: 40px;
+
 }
 
 .user-menu {
@@ -2248,10 +2249,6 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .services-shop {
     padding-top: 66px;
     margin-bottom: 81px;
-}
-
-.services-shop .container-stabber {
-
 }
 
 .services-shop h2, .services-shop h3, .services-shop p, .services-shop ul {
