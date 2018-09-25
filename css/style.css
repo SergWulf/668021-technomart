@@ -571,7 +571,7 @@ img {
     text-indent: -1000px;
     overflow: hidden;
 
-    z-index: 20;
+    z-index: 51;
     background-image: url(../img/new-flag.png);
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -589,7 +589,7 @@ img {
     width: 218px;
     height: 88px;
     padding: 40px 0;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
     z-index: 50;
 }
 
@@ -599,6 +599,10 @@ img {
 
 .card-product:hover .action {
     display: block;
+}
+
+.card-product:hover {
+    box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
 .card-product-buy::before {
@@ -1620,22 +1624,23 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 /* Навигация по страницам каталога: покой, наведение, клик*/
-.page-switch li {
+.page-switch li a {
     border: 1px solid #e5e5e5;
 }
 
-.page-switch li:hover {
+.page-switch li a:hover {
     border: 1px solid #bdc6ca;
 
 }
 
-.page-switch li:active {
+.page-switch li a:active {
     border: 1px solid #ee3643;
 }
 
 .page-switch .page-switch-current, .page-switch .page-switch-current:hover, .page-switch .page-switch-current:active {
     background-color: #ee3643;
     color: white;
+    border-radius: 3px;
     border: none;
 }
 
@@ -2165,6 +2170,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .card-product {
     min-width: 220px;
     width: 220px;
+    min-height: 318px;
 
     text-align: center;
     position: relative;
@@ -2583,7 +2589,6 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .page-switch li {
     margin-right: 10px;
     box-sizing: border-box;
-    border-radius: 3px;
 }
 
 .page-switch li a {
@@ -2592,6 +2597,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
     box-sizing: border-box;
 }
 
@@ -2611,12 +2617,12 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 }
 
 .description-catalog-item-product .item-product-title {
-    margin-top: 64px;
+    margin-top: 65px;
     margin-bottom: 26px;
 }
 
 .description-catalog-item-product .item-product-description {
-    margin-bottom: 67px;
+    margin-bottom: 68px;
 }
 
 .credit-application.btn {
