@@ -1018,8 +1018,9 @@ img {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 134px;
-    height: 42px;
+    min-height: 42px;
     box-sizing: border-box;
 }
 
@@ -1584,8 +1585,12 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     margin-right: 70px;
 }
 
-.sorting {
+.sorting ul{
     list-style: none;
+}
+
+.sorting-parameters {
+    display: flex;
 }
 
 /* Кнопки карточки товара */
@@ -1875,6 +1880,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     padding: 0;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     box-shadow: 0 5px 0 0 #293449;
 
     width: 940px;
@@ -1886,9 +1892,8 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .head-menu a {
     display: block;
     height: 55px;
-    /*align-items: center;
     padding: 0 31px;
-    outline: 1px solid crimson;*/
+    padding-top: 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1933,7 +1938,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .head-menu li:nth-of-type(7) a {
     padding-top: 20px;
     padding-left: 32px;
-    padding-right: 54px;
+    padding-right: 53px;
 }
 
 .main-header {
@@ -2132,13 +2137,17 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 
 .title-block {
     min-height: 89px;
-    height: 89px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding-left: 28px;
     padding-right: 24px;
     margin-bottom: 20px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .popular-manufacturers .title-block {
@@ -2156,8 +2165,6 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .card-product {
     min-width: 220px;
     width: 220px;
-    min-height: 318px;
-    height: 318px;
 
     text-align: center;
     position: relative;
@@ -2172,6 +2179,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .popular-products {
@@ -2272,7 +2280,6 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     min-width: 620px;
     width: 620px;
     min-height: 285px;
-    height: 285px;
 }
 
 .services-shop-list-description h3 {
@@ -2399,12 +2406,15 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .menu-catalog-footer {
     order: 2;
     display: flex;
+    flex-wrap: wrap;
+    max-width: 610px;
 }
 
 .footer-top .head-menu-footer {
     margin-top: 38px;
     display: flex;
-
+    max-width: 610px;
+    flex-wrap: wrap;
 }
 
 .head-menu-footer li, .menu-catalog-footer li {
@@ -2533,7 +2543,6 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     justify-content: space-between;
     margin-bottom: 20px;
     min-height: 38px;
-    height: 38px;
     align-items: center;
     padding-left: 19px;
     padding-right: 17px;
