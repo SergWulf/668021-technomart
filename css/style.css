@@ -560,7 +560,7 @@ img {
     position: relative;
 }
 
-.flag::before {
+.flag::after {
     content: "";
     position: absolute;
     top: -1px;
@@ -577,16 +577,9 @@ img {
     background-position: 0 0;
 }
 
-.catalog-items .flag::before {
-    right: 0;
+.catalog-items .flag::after {
     top: 0;
-}
-
-
-.new {
-    background-image: url(../img/new-flag.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+    right: 0;
 }
 
 .action {
