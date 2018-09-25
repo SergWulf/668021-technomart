@@ -21,20 +21,18 @@ a {
 img {
     max-width: 100%;
     height: auto;
-    position: relative;
-    z-index: 12;
 }
 
 .visually-hidden {
     display: none;
 }
 
+
 /*Шапка сайта*/
 .main-header {
     margin: 0;
     padding: 0;
     background-color: #f4f7f9;
-
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
