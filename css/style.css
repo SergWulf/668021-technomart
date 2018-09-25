@@ -161,7 +161,7 @@ img {
 
 /* Логотип: покой, наведение, клик*/
 .logo-link {
-    display: inline-block;
+    display: block;
     height: 47px;
     width: 220px;
     background-color: white;
