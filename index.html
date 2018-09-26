@@ -3,19 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&#10072;PT+Sans:400,700&amp;subset=cyrillic"
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&amp;subset=cyrillic"
           rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <header class="main-header">
-
-    <ul class="top-menu">
-        <li>
-            <ul class="container-stabber">
-                <li><a class="logo-link"></a></li>
-                <li>
+    <div class="top-menu">
+        <div class="container-stabber">
+                <a class="logo-link"></a>
                     <form class="top-menu-form-search" name="form-search">
                         <input class="field-search" type="search" name="search-page" id="search-id"
                                placeholder="Поиск:">
@@ -23,18 +20,14 @@
                              viewBox="0 0 17 17">
                             <path class="color-svg-search" fill="#ffffff"
                                   d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
-                        </svg>
-                    </form>
-                </li>
-                <li><a class="top-menu-bookmarks" href="bookmarks.html">Закладки:&nbsp; <span
-                        class="count-bookmarks">0</span></a></li>
-                <li><a class="top-menu-basket" href="basket.html">Корзина:&nbsp; <span class="count-basket">0</span></a>
-                </li>
-                <li><a class="top-menu-order" href="order.html">Оформить заказ</a></li>
-            </ul>
-        </li>
-    </ul>
-
+                    </svg>
+                </form>
+                <a class="top-menu-bookmarks" href="bookmarks.html">Закладки:&nbsp; <span
+                        class="count-bookmarks">0</span></a>
+                <a class="top-menu-basket" href="basket.html">Корзина:&nbsp; <span class="count-basket">0</span></a>
+                <a class="top-menu-order" href="order.html">Оформить заказ</a>
+        </div>
+    </div>
     <div class="bottom-block-header">
         <div class="container-stabber">
             <div class="container-header">
@@ -70,9 +63,7 @@
         </div>
     </div>
 </header>
-
 <main class="container">
-
     <section class="catalog-products-and-benefits">
         <div class="container-stabber">
             <ul class="catalog-items">
@@ -122,17 +113,18 @@
             </ul>          
         </div>
     </section>
-
     <section class="popular-products">
         <div class="container-stabber">
             <div class="title-block">
-                <h2 class="popular-products-title">Популярные товары:</h2>
+                <div class="title-block-left">
+                    <h2 class="popular-products-title">Популярные товары:</h2>
+                </div>
                 <a class="btn" href="catalog.html?p=popular">Все популярные товары</a>
             </div>
             <ul class="popular-products-list">
                 <li>
                     <article class="card-product">
-                        <img class="card-product-picture" alt="BOSCH BFG 9000" src="img/bosch9000.jpg">
+                        <img class="card-product-picture" alt="BOSCH BFG 9000" src="img/bosch9000.jpg" width="218" height="168">
                         <div class="action">
                             <a class="card-product-buy card-btn visually-hidden" href="#">Купить</a>
                             <a class="card-product-bookmark-in card-btn visually-hidden" href="#">В закладки</a>
@@ -144,7 +136,7 @@
                 </li>
                 <li>
                     <article class="card-product">
-                        <img class="card-product-picture" alt="BOSCH BFG 3000" src="img/bosch3000and2000.jpg">
+                        <img class="card-product-picture" alt="BOSCH BFG 3000" src="img/bosch3000and2000.jpg" width="218" height="168">
                         <div class="action">
                             <a class="card-product-buy card-btn visually-hidden" href="#">Купить</a>
                             <a class="card-product-bookmark-in card-btn visually-hidden" href="#">В закладки</a>
@@ -156,7 +148,7 @@
                 </li>
                 <li>
                     <article class="card-product">
-                        <img class="card-product-picture" alt="BOSCH BFG 6000" src="img/bosch6000.jpg">
+                        <img class="card-product-picture" alt="BOSCH BFG 6000" src="img/bosch6000.jpg" width="218" height="168">
                         <div class="action">
                             <a class="card-product-buy card-btn visually-hidden" href="#">Купить</a>
                             <a class="card-product-bookmark-in card-btn visually-hidden" href="#">В закладки</a>
@@ -168,7 +160,7 @@
                 </li>
                 <li>
                     <article class="card-product flag">
-                        <img class="card-product-picture" alt="BOSCH BFG 2000" src="img/bosch3000and2000.jpg">
+                        <img class="card-product-picture" alt="BOSCH BFG 2000" src="img/bosch3000and2000.jpg" width="218" height="168">
                         <div class="action">
                             <a class="card-product-buy card-btn visually-hidden" href="#">Купить</a>
                             <a class="card-product-bookmark-in card-btn visually-hidden" href="#">В закладки</a>
@@ -181,48 +173,48 @@
             </ul>
         </div>
     </section>
-
     <section class="popular-manufacturers">
         <div class="container-stabber">
             <div class="title-block">
-                <h2 class="popular-manufacturers-title">Популярные производители:</h2>
+                <div class="title-block-left">
+                    <h2 class="popular-manufacturers-title">Популярные производители:</h2>
+                </div>
                 <a class="btn" href="catalog.html?p=popular">Все производители</a>
             </div>
             <ul class="popular-manufacturers-list">
                 <li>
                     <a class="bosch" href="https://bosch.com"><img class="logo-bosch" alt="BOSCH"
-                                                                   src="img/bosch.jpg"></a>
+                                                                   src="img/bosch.jpg" width="126" height="37"></a>
                 </li>
                 <li>
                     <a class="makita" href="https://makita.com"><img class="logo-makita" alt="Makita"
-                                                                     src="img/makita.jpg"></a>
+                                                                     src="img/makita.jpg" width="123" height="40"></a>
                 </li>
                 <li>
                     <a class="dewalt" href="https://dewalt.com"><img class="logo-dewalt" alt="DeWALT"
-                                                                     src="img/dewalt.jpg"></a>
+                                                                     src="img/dewalt.jpg" width="146" height="44"></a>
                 </li>
                 <li>
                     <a class="interskol" href="https://interskol.com"><img class="logo-interskol" alt="Интерскол"
-                                                                           src="img/interskol.jpg"></a>
+                                                                           src="img/interskol.jpg" width="184" height="32"></a>
                 </li>
                 <li>
                     <a class="hitachi" href="https://hitachi.com"><img class="logo-hitachi" alt="Hitachi"
-                                                                       src="img/hitachi.jpg"></a>
+                                                                       src="img/hitachi.jpg" width="169" height="31"></a>
                 </li>
                 <li>
-                    <a class="lg" href="https://lg.com"><img class="logo-lg" alt="LG" src="img/lg.jpg"></a>
+                    <a class="lg" href="https://lg.com"><img class="logo-lg" alt="LG" src="img/lg.jpg" width="121" height="73"></a>
                 </li>
                 <li>
-                    <a class="aeg" href="https://aeg.com"><img class="logo-aeg" alt="AEG" src="img/aeg.jpg"></a>
+                    <a class="aeg" href="https://aeg.com"><img class="logo-aeg" alt="AEG" src="img/aeg.jpg" width="151" height="96"></a>
                 </li>
                 <li>
                     <a class="metabo" href="https://metabo.com"><img class="logo-metabo" alt="metabo"
-                                                                     src="img/metabo.jpg"></a>
+                                                                     src="img/metabo.jpg" width="155" height="55"></a>
                 </li>
             </ul>
         </div>
     </section>
-
     <section class="services-shop">
         <div class="container-stabber">
             <h2 class="services-shop-title">Сервисы</h2>
@@ -257,7 +249,6 @@
             </div>
         </div>
     </section>
-
     <div class="container-stabber">
         <div class="index-column">
             <section class="about-company">
@@ -283,18 +274,17 @@
                 <p class="contacts-company-description">Вы можете забрать товар сами, заехав в наш офис:</p>
                 <a class="contacts-company-map-address" href="https://yandex.ru/maps"><img class="company-map"
                                                                                            src="img/mini-map.jpg"
-                                                                                           alt="адрес на карте"></a>
+                                                                                           alt="адрес на карте" width="300" height="158"></a>
                 <a class="write-us btn" href="write-us.html">Заблудились? Напишите нам!</a>
             </section>
         </div>
     </div>
 </main>
-
 <footer class="main-footer">
     <div class="footer-top">
         <div class="container-stabber">
             <a class="logo-link" href="index.html"><img class="logo-footer" alt="Логотип сайта Техномарт"
-                                                        src="img/logo-footer.png"></a>
+                                                        src="img/logo-footer.png" width="220" height="68"></a>
             <ul class="head-menu-footer">
                 <li><a href="company.html">Компания</a></li>
                 <li><a href="news.html">Новости</a></li>
@@ -309,8 +299,8 @@
                 <li><a href="catalog.html?p=special-offer">Спецпредложения</a></li>
             </ul>
             <div class="contacts-company-footer">
-                <span class="address-footer">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span><br>
-                <span class="phone-footer">+7 (812) 555-05-55</span>
+                <p class="address-footer">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                <p class="phone-footer">+7 (812) 555-05-55</p>
             </div>
         </div>
     </div>
@@ -323,7 +313,7 @@
             <div class="social-links">
                 <ul class="social-links-list">
                     <li class="vk">
-                        <a class="social-button" href="#">
+                        <a class="social-button" href="https://vk.com" title="vk.com">
                             <span class="visually-hidden">vk.com</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="15" viewBox="0 0 26 15">
                                 <path fill="#FFF"
@@ -331,18 +321,16 @@
                             </svg>
                         </a>
                     </li>
-
                     <li class="fb">
-                        <a class="social-button" href="#">
+                        <a class="social-button" href="https://www.facebook.com" title="facebook.com">
                             <span class="visually-hidden">facebook.com</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
                                 <path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/>
                             </svg>
                         </a>
                     </li>
-
                     <li class="in">
-                        <a class="social-button" href="#">
+                        <a class="social-button" href="https://www.instagram.com" title="instagram.com">
                             <span class="visually-hidden">instagram.com</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
                                 <path fill="#FFF"
