@@ -445,9 +445,9 @@ img {
 }
 
 .catalog-products-and-benefits .slider-card h3 {
-    margin-top: 23px;
-    margin-left: 24px;
-    margin-bottom: 2px;
+    padding-top: 23px;
+    padding-left: 24px;
+    padding-bottom: 2px;
 }
 
 .slider-card p {
@@ -486,17 +486,17 @@ img {
     background: url("../img/icon-right.svg") no-repeat 0 0;
 }
 
-.slider-card .slider-radio-btn {
+.slider-radio-btn {
     position: absolute;
     display: block;
     width: 10px;
     height: 10px;
     background-color: white;
     border-radius: 50%;
-    z-index: 10;
+    z-index: 70;
 }
-
-.slider-card.drills .slider-radio-btn:nth-of-type(4)::before {
+/*
+.slider-radio-btn:nth-of-type(2)::before {
     content: "";
     position: absolute;
     display: block;
@@ -509,7 +509,7 @@ img {
     z-index: 20;
 }
 
-.slider-card.rock-drills .slider-radio-btn:nth-of-type(3)::before {
+.slider-radio-btn:nth-of-type(1)::before {
     content: "";
     position: absolute;
     display: block;
@@ -520,19 +520,41 @@ img {
     top: 2px;
     left: 2px;
     z-index: 20;
+}*/
+
+.slider-radio-btn:nth-of-type(1) {
+    top: 0px;
+    left: 0px;
 }
 
-.slider-radio-btn:nth-of-type(3) {
-    top: 220px;
-    left: 295px;
+.slider-radio-btn:nth-of-type(2) {
+    top: 0;
+    left: 20px;
 }
 
-.slider-radio-btn:nth-of-type(4) {
-    top: 220px;
-    left: 315px;
+#product-1:checked ~ .slider-list .slider-card:nth-of-type(2) {
+  display: block;
 }
 
-.catalog-items .slider-card .btn {
+#product-2:checked ~ .slider-list .slider-card:nth-of-type(1) {
+  display: block;
+}
+
+#product-1:checked ~ .slider-controls .one::before,
+#product-2:checked ~ .slider-controls .two::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    z-index: 80;
+}
+
+.slider-card .btn {
     width: 195px;
     height: 38px;
     border-radius: 3px;
@@ -2094,6 +2116,10 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
 .catalog-products-and-benefits .container-stabber {
     padding-top: 59px;
     margin-bottom: 53px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .catalog-products-and-benefits h2, .catalog-products-and-benefits h3 {
@@ -2105,6 +2131,9 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    min-width: 940px;
+    width: 940px;
 }
 
 .benefits {
@@ -2127,15 +2156,30 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(2) {
     margin: 20px 0;
 }
 
-.slider-card {
-    min-height: 266px;
-    height: 266px;
-    min-width: 620px;
-    width: 620px;
-
+.slider {
     margin-top: 20px;
     position: relative;
     box-sizing: border-box;
+}
+    
+
+.slider-card {
+    min-height: 266px;
+
+    min-width: 620px;
+    width: 620px;
+
+    display: none;
+}
+
+
+.slider-controls {
+  position: absolute;
+  top: 220px;
+  left: 295px;
+  
+  width: 30px;
+  height: 10px;
 }
 
 /*Сетки. Блок популярные товары */
