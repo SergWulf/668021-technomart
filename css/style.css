@@ -1119,6 +1119,10 @@ img {
     display: block;
 }
 
+.modal-show {
+    display: block;
+}
+
 .modal-feedback input[placeholder], .modal-feedback textarea[placeholder] {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;

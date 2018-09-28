@@ -384,5 +384,37 @@
     </footer>
     <span class="modal-close"></span>
 </div>
+<script type="text/javascript">
+
+  var link = document.querySelector(".write-us");
+
+  var popup = document.querySelector(".modal-feedback");
+  var close = popup.querySelector(".modal-close");
+
+  var form = popup.querySelector("form-feedback");
+
+  var login = popup.querySelector("[name=username]");
+  var email = popup.querySelector("[name=email]");
+  var user_text = popup.querySelector("[name=feedback-text]");
+
+
+  link.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.add("modal-show");
+  });
+
+  close.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.remove("modal-show");
+  });
+
+  form.addEventListener("submit", function (evt) {
+    if (!login.value || !email.value || !user_text.value) {
+      evt.preventDefault();
+      console.log("Нужно заполнить все поля!");
+    }
+  });
+
+</script>
 </body>
 </html>
