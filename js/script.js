@@ -28,7 +28,7 @@ form.addEventListener("submit", function (evt) {
 });
 
 //Реализация формы для покупки товара
-var buyLink = document.querySelectorAll(".card-product-buy");
+var buyLink = document.querySelector(".card-product-buy");
 
 var buyPopup = document.querySelector(".modal-add-product-in-basket");
 var buyClose = buyPopup.querySelector(".modal-close");
